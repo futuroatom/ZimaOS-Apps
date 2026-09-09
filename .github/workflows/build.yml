@@ -1,18 +1,16 @@
-name: Build ZimaOS AppStore
-
-on:
-  push:
-    branches: [main]
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - name: Checkout repository
+- name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Setup Python for fix script
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install ruamel.yaml
+        run: pip install ruamel.yaml
+
+      - name: Fix ZimaOS Reverse-Domain IDs
+        run: python fix_ids.py
 
       - name: Build AppStore dist
         uses: IceWhaleTech/build-appstore-action@v1
@@ -20,9 +18,3 @@ jobs:
           source: .
           output: dist
           base-url: https://cdn.jsdelivr.net/gh/${{ github.repository }}@gh-pages
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
