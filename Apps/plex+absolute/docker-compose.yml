@@ -23,7 +23,15 @@ services:
     restart: unless-stopped
     network_mode: host
     privileged: false
-
+x-casaos:
+  id: com.zimaos.plex-audnexus
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  author: plex
+  category: TMCstore
+  
 x-casaos:
   architectures:
     - amd64
