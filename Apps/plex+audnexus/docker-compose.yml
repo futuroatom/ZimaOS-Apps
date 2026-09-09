@@ -31,14 +31,6 @@ x-casaos:
     - arm64
   author: plex
   category: TMCstore
-  
-x-casaos:
-  architectures:
-    - amd64
-    - arm
-    - arm64
-  author: plex
-  category: TMCstore
   description:
     en_us: Plex + Absolute Series Scanner and Hama Mod
   developer: plex
