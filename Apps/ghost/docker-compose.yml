@@ -1,0 +1,74 @@
+name: ghost-tmc
+services:
+  ghost-db:
+    container_name: ghost-db
+    hostname: ghost-db
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      - MYSQL_ROOT_PASSWORD=CrazyGoodDatabasePassword1337!
+    image: mysql:8
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /DATA/AppData/TMC-Store/$AppID/mysql
+        target: /var/lib/mysql
+    networks:
+      - ghost
+    privileged: false
+  
+  app:
+    container_name: ghost
+    hostname: ghost
+    depends_on:
+      - ghost-db
+    environment:
+      - NODE_ENV=production
+      - database__client=mysql
+      - database__connection__host=ghost-db
+      - database__connection__user=root
+      - database__connection__password=CrazyGoodDatabasePassword1337!
+      - database__connection__database=ghost
+    image: ghost:latest
+    ports:
+      - target: 2368
+        published: ${WEBUI_PORT:-2368}
+        protocol: tcp
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /DATA/AppData/TMC-Store/$AppID/content
+        target: /var/lib/ghost/content
+    networks:
+      - ghost
+    privileged: false
+
+networks:
+  ghost:
+    name: ghost
+
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  author: ghost
+  category: TMCstore
+  description:
+    en_us: Free and open-source blogging platform.
+  developer: ""
+  icon: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/ghost/icon.png
+  index: /
+  main: app
+  port_map: ${WEBUI_PORT:-2368}
+  scheme: http
+  tagline:
+    en_us: Free And Open-source Blogging Platform.
+  store_app_id: ghost-tmc
+  title:
+    en_us: Ghost Blogging Platform
+  screenshot_link:
+    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/ghost/screenshot-01.png
+    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/ghost/screenshot-02.png
+    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/ghost/screenshot-03.png
+    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/ghost/screenshot-04.png
+  thumbnail: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/ghost/thumbnail.png
