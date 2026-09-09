@@ -1,0 +1,46 @@
+name: transmission
+services:
+  transmission:
+    environment:
+      PASS: casaos
+      PEERPORT: "51413"
+      PGID: "1000"
+      PUID: "1000"
+      TZ: Europe/London
+      USER: casaos
+    image: linuxserver/transmission:4.0.6@sha256:d7dd119aba663125372b0d67432d79aed454640aeb5b2563619ff2c44564146e
+    deploy:
+      resources:
+        reservations:
+          memory: 64M
+    network_mode: bridge
+    ports:
+      - target: 9091
+        published: "9091"
+        protocol: tcp
+      - target: 51413
+        published: "51413"
+        protocol: tcp
+      - target: 51413
+        published: "51413"
+        protocol: UDP
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/config
+        target: /config
+      - type: bind
+        source: /DATA/Downloads
+        target: /downloads
+      - type: bind
+        source: /DATA/Downloads/watch
+        target: /watch
+    container_name: transmission
+x-casaos:
+  main: transmission
+  icon: https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages/apps/com.zimaos.transmission/assets/icon.png
+  title:
+    en_US: Transmission
+  index: /
+  port_map: "9091"
+  id: com.zimaos.transmission

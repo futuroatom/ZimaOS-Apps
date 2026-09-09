@@ -1,0 +1,27 @@
+name: vaultwarden
+services:
+  vaultwarden:
+    image: vaultwarden/server:1.32.7@sha256:ad34fa9e0fb32db8c3dd453dcdbc1844fac96331329fa6b466d29363233b943a
+    deploy:
+      resources:
+        reservations:
+          memory: 256M
+    network_mode: bridge
+    ports:
+      - target: 80
+        published: "10380"
+        protocol: tcp
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/data
+        target: /data
+    container_name: vaultwarden
+x-casaos:
+  main: vaultwarden
+  icon: https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages/apps/com.zimaos.vaultwarden/assets/icon.png
+  title:
+    en_US: Vaultwarden
+  index: /
+  port_map: "10380"
+  id: com.zimaos.vaultwarden

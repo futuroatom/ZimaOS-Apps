@@ -1,0 +1,5 @@
+{
+  "id": "com.zimaos.vocechat",
+  "description": "Como uma alternativa superior aos serviços de bate-papo centralizados, o Voce chat é um aplicativo de bate-papo superleve impulsionado por Rust que prioriza o hospedagem privada.",
+  "tagline": "Tenha um espaço social privado hospedado em seu site"
+}

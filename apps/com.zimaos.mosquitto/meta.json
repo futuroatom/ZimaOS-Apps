@@ -1,0 +1,30 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64",
+    "arm"
+  ],
+  "author": "mr-manuel",
+  "category": "Home Automation",
+  "description": "Visit [Eclipse Mosquitto](https://mosquitto.org) for more details. Check the [documentation](https://mosquitto.org/documentation/) for further settings.\n",
+  "developer": "Eclipse Mosquitto",
+  "project_url": "https://github.com/mr-manuel/CasaOS-HomeAutomation-AppStore",
+  "tagline": "Eclipse Mosquitto is an open source (EPL/EDL licensed) message broker that implements the MQTT protocol versions 5.0, 3.1.1 and 3.1. Mosquitto is lightweight and is suitable for use on all devices from low power single board computers to full servers.\n",
+  "thumbnail": "/apps/com.zimaos.mosquitto/assets/icon.webp",
+  "tips": {
+    "before_install": "The MQTT broker will be reachable at port `1883`.\n\n[Website](https://mosquitto.org) &bull; [Documentation](https://mosquitto.org/documentation/)\n"
+  },
+  "title": "Mosquitto",
+  "base_url": "https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages",
+  "id": "com.zimaos.mosquitto",
+  "version": "",
+  "categories": [
+    "home automation"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 9989349,
+    "arm": 9650231,
+    "arm64": 10234072
+  }
+}

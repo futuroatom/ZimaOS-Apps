@@ -1,0 +1,33 @@
+name: smokeping
+services:
+  smokeping:
+    environment:
+      PGID: "1000"
+      PUID: "1000"
+      TZ: Europe/London
+    image: linuxserver/smokeping:2.8.2@sha256:ba4f163835fffaa360cde712f17f4ff754e28ad89ec8d2656c2a03698b206f47
+    deploy:
+      resources:
+        reservations:
+          memory: 64M
+    network_mode: bridge
+    ports:
+      - target: 80
+        published: "10280"
+        protocol: tcp
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /DATA/AppData/smokeping/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/smokeping/data
+        target: /data
+    container_name: smokeping
+x-casaos:
+  main: smokeping
+  icon: https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages/apps/com.zimaos.smokeping/assets/icon.png
+  title:
+    en_US: Smokeping
+  port_map: "10280"
+  id: com.zimaos.smokeping

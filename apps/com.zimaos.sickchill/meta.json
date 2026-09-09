@@ -1,0 +1,33 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Media",
+  "description": "SickChill is an automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic: automatic torrent/nzb searching, downloading, and processing at the qualities you want.\n",
+  "developer": "Sickchill Team",
+  "screenshot_link": [
+    "/apps/com.zimaos.sickchill/assets/screenshot-1.webp",
+    "/apps/com.zimaos.sickchill/assets/screenshot-2.webp",
+    "/apps/com.zimaos.sickchill/assets/screenshot-3.webp",
+    "/apps/com.zimaos.sickchill/assets/screenshot-4.webp",
+    "/apps/com.zimaos.sickchill/assets/screenshot-5.webp",
+    "/apps/com.zimaos.sickchill/assets/screenshot-6.webp"
+  ],
+  "tagline": "Automatic video library manager for TV Shows",
+  "thumbnail": "/apps/com.zimaos.sickchill/assets/thumbnail.webp",
+  "tips": {},
+  "title": "Sickchill",
+  "base_url": "https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages",
+  "id": "com.zimaos.sickchill",
+  "version": "",
+  "categories": [
+    "media"
+  ],
+  "min_memory": 67108864,
+  "min_image_size": {
+    "amd64": 85420682,
+    "arm64": 86537170
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Downloader",
+  "description": "Transmission is an open source, volunteer-based project. Unlike some BitTorrent clients, Transmission doesn''t play games with its users to make money:  Transmission doesn''t bundle toolbars, pop-up ads, flash ads, twitter tools, or anything else. It doesn''t hold some features back for a payware version. Its source code is available for anyone to review. We don''t track our users, and our website and forums have no third-party ads or analytics.\n",
+  "developer": "Transmission",
+  "screenshot_link": [
+    "/apps/com.zimaos.transmission/assets/screenshot-1.webp",
+    "/apps/com.zimaos.transmission/assets/screenshot-2.webp",
+    "/apps/com.zimaos.transmission/assets/screenshot-3.webp"
+  ],
+  "tagline": "Transmission is a cross-platform BitTorrent client",
+  "thumbnail": "/apps/com.zimaos.transmission/assets/thumbnail.webp",
+  "tips": {
+    "before_install": "| username | password |\n| -------- | -------- |\n| `casaos` | `casaos` |\n"
+  },
+  "title": "Transmission",
+  "base_url": "https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages",
+  "id": "com.zimaos.transmission",
+  "version": "",
+  "categories": [
+    "downloader"
+  ],
+  "min_memory": 67108864,
+  "min_image_size": {
+    "amd64": 31325630,
+    "arm64": 32218309
+  }
+}

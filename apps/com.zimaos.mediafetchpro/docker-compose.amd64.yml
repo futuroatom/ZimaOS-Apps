@@ -1,0 +1,33 @@
+name: media-fetch-pro
+services:
+  media-fetch-pro:
+    environment:
+      PGID: $PGID
+      PUID: $PUID
+      TZ: $TZ
+    image: correctroad/media-fetch-pro:0.3.2@sha256:e9bd1df1f6f71a2a5252284533ffec93ae8d5f203b3d9f9efc979e0a76be755c
+    deploy:
+      resources:
+        reservations:
+          memory: 64M
+    network_mode: bridge
+    ports:
+      - target: 7789
+        published: "7789"
+        protocol: tcp
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /DATA/Media/MediaFetchPro
+        target: /var/opt/video
+      - type: bind
+        source: /DATA/AppData/$AppID/config
+        target: /var/opt/config
+    container_name: mediafetchpro
+x-casaos:
+  main: media-fetch-pro
+  icon: https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages/apps/com.zimaos.mediafetchpro/assets/icon.png
+  title:
+    en_US: Media Fetch Pro
+  port_map: "7789"
+  id: com.zimaos.mediafetchpro

@@ -1,0 +1,30 @@
+version: "3.7"
+name: cloudbeaver
+services:
+  cloudbeaver:
+    container_name: cloudbeaver
+    deploy:
+      resources:
+        reservations:
+          memory: 256M
+    image: dbeaver/cloudbeaver:24.3.2
+    ports:
+      - target: 8978
+        published: "8978"
+        protocol: tcp
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/workspace
+        target: /opt/cloudbeaver/workspace
+    network_mode: bridge
+    privileged: false
+x-casaos:
+  main: cloudbeaver
+  icon: https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages/apps/com.zimaos.cloudbeaver/assets/icon.png
+  title:
+    en_US: CloudBeaver
+    pt_BR: CloudBeaver
+  index: /
+  port_map: "8978"
+  id: com.zimaos.cloudbeaver

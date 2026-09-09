@@ -1,0 +1,33 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Chat",
+  "description": "The developer-friendly cloud platform for building and running LLM agents for AI-native applications.",
+  "developer": "TaskingAI Team",
+  "screenshot_link": [
+    "/apps/com.zimaos.taskingai/assets/screenshot-1.webp",
+    "/apps/com.zimaos.taskingai/assets/screenshot-2.webp",
+    "/apps/com.zimaos.taskingai/assets/screenshot-3.webp",
+    "/apps/com.zimaos.taskingai/assets/screenshot-4.webp"
+  ],
+  "tagline": "The developer-friendly cloud platform for building and running LLM agents for AI-native applications.",
+  "thumbnail": "/apps/com.zimaos.taskingai/assets/thumbnail.webp",
+  "tips": {
+    "before_install": "| Username | Password   |\n| -------- | ---------- |\n| admin    | TaskingAI321 |\n"
+  },
+  "title": "TaskingAI",
+  "base_url": "https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages",
+  "id": "com.zimaos.taskingai",
+  "version": "",
+  "categories": [
+    "chat"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1198115161,
+    "arm64": 1183503115
+  }
+}

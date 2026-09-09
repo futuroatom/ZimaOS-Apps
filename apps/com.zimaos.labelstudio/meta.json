@@ -1,0 +1,28 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CorrectRoadH",
+  "category": "AI",
+  "description": "Label Studio is an open source data labeling tool. It lets you label data types like audio, text, images, videos, and time series with a simple and straightforward UI and export to various model formats. It can be used to prepare raw data or improve existing training data to get more accurate ML models.",
+  "developer": "Yidadaa",
+  "screenshot_link": [
+    "/apps/com.zimaos.labelstudio/assets/screenshot-1.webp"
+  ],
+  "tagline": "Label Studio is an open source data labeling tool. It lets you label data types like audio, text, images, videos, and time series with a simple and straightforward UI and export to various model formats. It can be used to prepare raw data or improve existing training data to get more accurate ML models.",
+  "thumbnail": "/apps/com.zimaos.labelstudio/assets/thumbnail.webp",
+  "tips": {},
+  "title": "Label Studio",
+  "base_url": "https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages",
+  "id": "com.zimaos.labelstudio",
+  "version": "",
+  "categories": [
+    "ai"
+  ],
+  "min_memory": 268435456,
+  "min_image_size": {
+    "amd64": 210167777,
+    "arm64": 204935212
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "description": "Handbrake is a Docker-based application for video transcoding and compression, offering powerful and flexible multimedia processing across multiple platforms.",
+  "screenshot_link": [
+    "/apps/com.zimaos.handbrake/assets/screenshot-1.webp"
+  ],
+  "tagline": "Liberate your videos and unleash infinite possibilities.",
+  "tips": {
+    "before_install": "## Handbrake\n#### Professional video transcoding.\n"
+  },
+  "author": "self",
+  "category": "Media",
+  "hostname": "",
+  "title": "handbrake",
+  "base_url": "https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages",
+  "id": "com.zimaos.handbrake",
+  "version": "",
+  "categories": [
+    "media"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 212421408
+  }
+}

@@ -1,0 +1,42 @@
+name: adguard-home
+services:
+  adguard-home:
+    image: adguard/adguardhome:v0.107.55@sha256:633154b8e53689a5de756b5a1dc6afda03855ff4c84086c636a6cd67140523f8
+    deploy:
+      resources:
+        reservations:
+          memory: 64M
+    network_mode: bridge
+    ports:
+      - target: 53
+        published: "531"
+        protocol: tcp
+      - target: 53
+        published: "531"
+        protocol: udp
+      - target: 3000
+        published: "3001"
+        protocol: tcp
+      - target: 853
+        published: "853"
+        protocol: tcp
+      - target: 784
+        published: "784"
+        protocol: udp
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/opt/adguardhome/work
+        target: /opt/adguardhome/work
+      - type: bind
+        source: /DATA/AppData/$AppID/opt/adguardhome/conf
+        target: /opt/adguardhome/conf
+    container_name: adguard-home
+x-casaos:
+  main: adguard-home
+  icon: https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages/apps/com.zimaos.adguardhome/assets/icon.png
+  title:
+    en_US: AdGuard Home
+  index: /
+  port_map: "3001"
+  id: com.zimaos.adguardhome

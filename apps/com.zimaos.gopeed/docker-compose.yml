@@ -1,0 +1,32 @@
+name: gopeed
+services:
+  gopeed:
+    container_name: gopeed
+    deploy:
+      resources:
+        limits:
+          memory: 256M
+    image: liwei2633/gopeed:v1.6.6
+    ports:
+      - target: 9999
+        published: "9999"
+        protocol: tcp
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/data
+        target: /app/storage
+      - type: bind
+        source: /DATA/Downloads
+        target: /app/Downloads
+    network_mode: bridge
+    privileged: false
+x-casaos:
+  main: gopeed
+  icon: https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages/apps/com.zimaos.gopeed/assets/icon.png
+  title:
+    en_US: Gopeed
+    pt_BR: Gopeed
+  index: /
+  port_map: "9999"
+  id: com.zimaos.gopeed

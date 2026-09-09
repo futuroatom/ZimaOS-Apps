@@ -1,0 +1,19 @@
+name: adminer
+services:
+  adminer:
+    image: adminer:4.8.1@sha256:00e72822486e4ac6751c3538254d5bfe241e5c042e3b04d0dbd12e62740fdab7
+    deploy:
+      resources:
+        reservations:
+          memory: 32M
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    container_name: adminer
+x-casaos:
+  main: adminer
+  icon: https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages/apps/com.zimaos.adminer/assets/icon.png
+  title:
+    en_US: Adminer
+  port_map: "8080"
+  id: com.zimaos.adminer

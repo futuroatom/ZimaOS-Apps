@@ -1,0 +1,21 @@
+name: databag
+services:
+  databag:
+    image: balzack/databag:0.1.17
+    restart: unless-stopped
+    ports:
+      - target: 7000
+        published: 7000
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/databag/data
+        target: /var/lib/databag
+    container_name: databag
+x-casaos:
+  main: databag
+  icon: https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages/apps/com.zimaos.databag/assets/icon.png
+  title:
+    en_US: Databag
+  port_map: "7000"
+  id: com.zimaos.databag

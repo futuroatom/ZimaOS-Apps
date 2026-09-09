@@ -1,0 +1,33 @@
+name: gitea
+services:
+  gitea:
+    environment:
+      USER_GID: "1000"
+      USER_UID: "1000"
+    image: gitea/gitea:1.23.0-rc0-rootless@sha256:143a31699cb25fc6ff2bf61e61b510a427626b6d6682a779687ad8a7b68ee236
+    deploy:
+      resources:
+        reservations:
+          memory: 256M
+    network_mode: bridge
+    ports:
+      - target: 3000
+        published: "3002"
+        protocol: tcp
+      - target: 22
+        published: "222"
+        protocol: tcp
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/data
+        target: /data
+    container_name: gitea
+x-casaos:
+  main: gitea
+  icon: https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages/apps/com.zimaos.gitea/assets/icon.png
+  title:
+    en_US: Gitea
+  index: /
+  port_map: "3002"
+  id: com.zimaos.gitea

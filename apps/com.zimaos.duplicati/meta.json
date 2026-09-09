@@ -1,0 +1,30 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Cloud",
+  "description": "Duplicati is a free, open source, backup client that securely stores encrypted, incremental, compressed backups on cloud storage services and remote file servers.",
+  "developer": "duplicati",
+  "screenshot_link": [
+    "/apps/com.zimaos.duplicati/assets/screenshot-1.webp",
+    "/apps/com.zimaos.duplicati/assets/screenshot-2.webp",
+    "/apps/com.zimaos.duplicati/assets/screenshot-3.webp"
+  ],
+  "tagline": "Store securely encrypted backups in the cloud!",
+  "thumbnail": "/apps/com.zimaos.duplicati/assets/thumbnail.webp",
+  "tips": {},
+  "title": "Duplicati",
+  "base_url": "https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages",
+  "id": "com.zimaos.duplicati",
+  "version": "",
+  "categories": [
+    "cloud"
+  ],
+  "min_memory": 67108864,
+  "min_image_size": {
+    "amd64": 176084712,
+    "arm64": 173032418
+  }
+}

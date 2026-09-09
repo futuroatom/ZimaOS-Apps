@@ -1,0 +1,28 @@
+{
+  "architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ],
+  "author": "rstuhlmuller",
+  "category": "Network",
+  "description": "Program to keep DNS A and/or AAAA records updated for multiple DNS providers",
+  "developer": "qmcgaw",
+  "screenshot": [
+    "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/DDNS-Updater/screenshot-1.png"
+  ],
+  "tagline": "Simple and easy to use DDNS",
+  "title": "ddns-updater",
+  "base_url": "https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages",
+  "id": "com.zimaos.ddns-updater",
+  "version": "",
+  "categories": [
+    "network"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 4951892,
+    "arm": 4640177,
+    "arm64": 4581797
+  }
+}

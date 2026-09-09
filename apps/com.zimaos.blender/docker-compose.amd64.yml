@@ -1,0 +1,27 @@
+name: linuxserver-blender
+services:
+  app:
+    image: linuxserver/blender:4.3.2@sha256:3f1b95711feff3dda7b687a35e5628e32eacb02960a09c7c022f7ce3c665daac
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      SUBFOLDER: ''
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/blender/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages/apps/com.zimaos.blender/assets/icon.png
+  title:
+    en_US: Blender
+  id: com.zimaos.blender

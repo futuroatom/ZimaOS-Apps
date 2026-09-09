@@ -1,0 +1,27 @@
+name: red-discordbot-tmc
+services:
+  app:
+    container_name: red-discordbot
+    image: phasecorex/red-discordbot:full@sha256:c0300807a25249608b5dbb08601330547d340e0f3f9ba0902fbc674a9ed9bd75
+    environment:
+      - PREFIX=.
+      - PUID=$PUID
+      - PGID=$PGID
+      - TOKEN=<your-discord-token>
+      - TZ=$TZ
+    volumes:
+      - type: bind
+        source: /DATA/AppData/TMC-Store/$AppID/data
+        target: /data
+    restart: unless-stopped
+    privileged: false
+
+x-casaos:
+  icon: https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages/apps/com.zimaos.red-discordbot/assets/icon.png
+  index: /
+  main: app
+  port_map: ""
+  scheme: http
+  title:
+    en_US: Red Discord Bot
+  id: com.zimaos.red-discordbot

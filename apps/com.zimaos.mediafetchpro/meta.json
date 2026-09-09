@@ -1,0 +1,32 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CorrectRoadH",
+  "category": "Media",
+  "description": "Media Fetch PRO is an application to download video of youtube, bilibili and more websites in future with metadata to jellyfin, emby, plex and more softwares in future. Project - https://github.com/Media-Fetch-Pro/Media-Fetch-Pro",
+  "developer": "CorrectRoadH",
+  "screenshot_link": [
+    "/apps/com.zimaos.mediafetchpro/assets/screenshot-1.webp",
+    "/apps/com.zimaos.mediafetchpro/assets/screenshot-2.webp",
+    "/apps/com.zimaos.mediafetchpro/assets/screenshot-3.webp"
+  ],
+  "tagline": "Media Fetch PRO is an application to download video of youtube, bilibili and more websites in future with metadata to jellyfin, emby, plex and more softwares in future.",
+  "thumbnail": "/apps/com.zimaos.mediafetchpro/assets/thumbnail.webp",
+  "tips": {
+    "before_install": "Media Fetch PRO is in beta test yet. So you may lose your download history in the future and you may got some bugs."
+  },
+  "title": "Media Fetch Pro",
+  "base_url": "https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages",
+  "id": "com.zimaos.mediafetchpro",
+  "version": "",
+  "categories": [
+    "media"
+  ],
+  "min_memory": 67108864,
+  "min_image_size": {
+    "amd64": 92882719,
+    "arm64": 91809895
+  }
+}

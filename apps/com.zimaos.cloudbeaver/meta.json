@@ -1,0 +1,28 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "joaobosconff",
+  "category": "Developer",
+  "description": "CloudBeaver is a web-based database GUI tool which provides rich web interface. You can use it to manage PostgreSQL, MySQL, MariaDB, SQL Server, Oracle, DB2, Firebird, H2, Trino.",
+  "developer": "dbeaver",
+  "screenshot_link": [
+    "/apps/com.zimaos.cloudbeaver/assets/screenshot-1.webp",
+    "/apps/com.zimaos.cloudbeaver/assets/screenshot-2.webp",
+    "/apps/com.zimaos.cloudbeaver/assets/screenshot-3.webp"
+  ],
+  "tagline": "Cloud Database Manager.",
+  "title": "CloudBeaver",
+  "base_url": "https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages",
+  "id": "com.zimaos.cloudbeaver",
+  "version": "",
+  "categories": [
+    "developer"
+  ],
+  "min_memory": 268435456,
+  "min_image_size": {
+    "amd64": 444788815,
+    "arm64": 443489092
+  }
+}

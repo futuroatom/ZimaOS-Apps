@@ -1,0 +1,30 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64",
+    "arm"
+  ],
+  "author": "mr-manuel",
+  "category": "Database",
+  "description": "Visit [Influx Data](https://www.influxdata.com/influxdb/) for more details. Check the [documentation](https://docs.influxdata.com/influxdb/v1.8/) for further settings.\n\n🚨 Note: This app will always stay on the latest version of 1.x. If you want to upgrade always to the latest version install `InfluxDB` instead.\n",
+  "developer": "Influx Data",
+  "project_url": "https://github.com/mr-manuel/CasaOS-HomeAutomation-AppStore",
+  "tagline": "Manage all types of time series data in a single, purpose-built database.\n",
+  "thumbnail": "/apps/com.zimaos.influxdb-v1/assets/icon.webp",
+  "tips": {
+    "before_install": "The database will be reachable at port `8091`.\n\n[Website](https://www.influxdata.com/influxdb/) &bull; [Documentation](https://docs.influxdata.com/influxdb/v1.8/)\n"
+  },
+  "title": "InfluxDB v1",
+  "base_url": "https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages",
+  "id": "com.zimaos.influxdb-v1",
+  "version": "",
+  "categories": [
+    "database"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 125735557,
+    "arm": 116739451,
+    "arm64": 120719892
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ],
+  "tagline": "WEB UI to manage WireGuard VPN.",
+  "description": "You have found the easiest way to install & manage WireGuard on any Linux host!",
+  "screenshot_link": [
+    "/apps/com.zimaos.wireguardeasy/assets/screenshot-1.webp",
+    "/apps/com.zimaos.wireguardeasy/assets/screenshot-2.webp",
+    "/apps/com.zimaos.wireguardeasy/assets/screenshot-3.webp"
+  ],
+  "developer": "WeejeWel",
+  "author": "Sawy",
+  "thumbnail": "/apps/com.zimaos.wireguardeasy/assets/icon.webp",
+  "category": "Network",
+  "tips": {
+    "before_install": "🔧 Settings\n\nDefault password: `casaos`\n\n⚠️ Warning!\n\nYou need to change at least change the mandatory parameter `WG_HOST` for this app to work properly.\nIt's value has to be a domain (or an IP address) that points to this server (accesible from WAN).\n\nSame applies to the `WG_PORT` parameter. Change it to the port accessible from outside your LAN if it differs from the default 51820.\n"
+  },
+  "title": "WireGuard Easy",
+  "base_url": "https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages",
+  "id": "com.zimaos.wireguardeasy",
+  "version": "",
+  "categories": [
+    "network"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 52309056,
+    "arm": 50575101,
+    "arm64": 52906447
+  }
+}

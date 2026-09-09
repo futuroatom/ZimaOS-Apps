@@ -1,0 +1,31 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Media",
+  "description": "Swing Music is a beautifully designed, self-hosted music streaming server. Like a cooler Spotify ... but bring your own music.\n",
+  "developer": "SwingMX",
+  "screenshot_link": [
+    "/apps/com.zimaos.swingmusic/assets/screenshot-1.webp",
+    "/apps/com.zimaos.swingmusic/assets/screenshot-2.webp",
+    "/apps/com.zimaos.swingmusic/assets/screenshot-3.webp",
+    "/apps/com.zimaos.swingmusic/assets/screenshot-4.webp",
+    "/apps/com.zimaos.swingmusic/assets/screenshot-5.webp"
+  ],
+  "tagline": "Swing Music is a beautifully designed, self-hosted music streaming server. Like a cooler Spotify ... but bring your own music.",
+  "tips": {
+    "before_install": "When you first start Swing Music, it will ask you to pick music directory: Where do you want to look for music?\nselect \"Specific directories\" Option, and select \"/music\" and rescan.\n"
+  },
+  "title": "Swing Music",
+  "base_url": "https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages",
+  "id": "com.zimaos.swingmusic",
+  "version": "",
+  "categories": [
+    "media"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 719643326
+  }
+}

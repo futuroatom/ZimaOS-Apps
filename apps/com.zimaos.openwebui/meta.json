@@ -1,0 +1,29 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "developer": "Tim J. Baek",
+  "category": "Chat",
+  "description": "Open WebUI is an extensible, self-hosted interface for AI that adapts to your workflow, all while operating entirely offline.",
+  "screenshot_link": [
+    "/apps/com.zimaos.openwebui/assets/screenshot-1.webp",
+    "/apps/com.zimaos.openwebui/assets/screenshot-2.webp",
+    "/apps/com.zimaos.openwebui/assets/screenshot-3.webp"
+  ],
+  "thumbnail": "/apps/com.zimaos.openwebui/assets/thumbnail.webp",
+  "tagline": "User-friendly WebUI for LLMs (Formerly Ollama WebUI)",
+  "tips": {
+    "before_install": "**IMPORTANT NOTE ON USER ROLES AND PRIVACY:**\n- **Admin Creation**: The first account created on Open WebUI gains Administrator privileges, controlling user management and system settings.\n- **User Registrations**: Subsequent sign-ups start with Pending status, requiring Administrator approval for access.\n- **Privacy and Data Security**: All your data, including login details, is locally stored on your device. Open WebUI ensures strict confidentiality and no external requests for enhanced privacy and security.\n\n| Please refer to the [official documentation](https://docs.openwebui.com) for more information.\n\n**RESOURCES USAGE NOTICE:**\nPlease be mindful of your device resources (CPU/GPU/RAM) usage to avoid overloading that may lead to device performance degradation.\n"
+  },
+  "title": "Open WebUI",
+  "base_url": "https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages",
+  "id": "com.zimaos.openwebui",
+  "version": "",
+  "categories": [
+    "chat"
+  ],
+  "min_memory": 536870912,
+  "min_image_size": {
+    "amd64": 1483843420
+  }
+}

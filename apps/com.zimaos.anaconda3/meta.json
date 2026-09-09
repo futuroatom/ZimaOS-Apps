@@ -1,0 +1,33 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "author": "LisonEvf",
+  "category": "AI",
+  "developer": "LisonEvf",
+  "thumbnail": "/apps/com.zimaos.anaconda3/assets/thumbnail.webp",
+  "screenshot_link": [
+    "/apps/com.zimaos.anaconda3/assets/screenshot-1.webp",
+    "/apps/com.zimaos.anaconda3/assets/screenshot-2.webp",
+    "/apps/com.zimaos.anaconda3/assets/screenshot-3.webp"
+  ],
+  "hostname": "",
+  "description": "Your machine learning Env work with Jupyter Lab",
+  "tagline": "Your machine learning Env work with Jupyter Lab",
+  "tips": {
+    "en_us": "Your machine learning Env work with Jupyter Lab",
+    "zh_cn": "私有炼丹炉",
+    "before_install": "After installation, please check the token in the container log (Settings - TopRight - Terminal and Logs - Logs)."
+  },
+  "title": "Anaconda3",
+  "base_url": "https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages",
+  "id": "com.zimaos.anaconda3",
+  "version": "",
+  "categories": [
+    "ai"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1556641336
+  }
+}

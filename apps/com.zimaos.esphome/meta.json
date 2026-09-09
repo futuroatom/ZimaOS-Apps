@@ -1,0 +1,28 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64",
+    "arm"
+  ],
+  "author": "kd9lsv",
+  "category": "Home Automation",
+  "description": "ESPHome is a system to control your microcontrollers by simple yet powerful configuration files and control them remotely through Home Automation systems.",
+  "tagline": "Home Automation systems",
+  "screenshot_link": [
+    "/apps/com.zimaos.esphome/assets/screenshot-1.webp",
+    "/apps/com.zimaos.esphome/assets/screenshot-2.webp"
+  ],
+  "title": "ESPHome",
+  "base_url": "https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages",
+  "id": "com.zimaos.esphome",
+  "version": "",
+  "categories": [
+    "home automation"
+  ],
+  "min_memory": 536870912,
+  "min_image_size": {
+    "amd64": 209664495,
+    "arm": 187375013,
+    "arm64": 213322410
+  }
+}

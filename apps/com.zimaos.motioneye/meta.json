@@ -1,0 +1,26 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "author": "f4bio",
+  "category": "Utilities",
+  "description": "motionEye is a web-based frontend for motion. Check out the wiki for more details. Changelog is available on the releases page. https://github.com/motioneye-project/motioneye",
+  "developer": "Motioneye",
+  "screenshot_link": [
+    "/apps/com.zimaos.motioneye/assets/screenshot-1.webp",
+    "/apps/com.zimaos.motioneye/assets/screenshot-2.webp",
+    "/apps/com.zimaos.motioneye/assets/screenshot-3.webp"
+  ],
+  "tagline": "A web frontend for the motion daemon.",
+  "title": "Motioneye",
+  "base_url": "https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages",
+  "id": "com.zimaos.motioneye",
+  "version": "",
+  "categories": [
+    "utilities"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 157113934
+  }
+}

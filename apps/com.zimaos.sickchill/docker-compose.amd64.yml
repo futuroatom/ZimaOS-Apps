@@ -1,0 +1,36 @@
+name: sickchill
+services:
+  sickchill:
+    environment:
+      PGID: "1000"
+      PUID: "1000"
+      TZ: Europe/London
+    image: linuxserver/sickchill:2024.3.1@sha256:78d0b0055b5fc1bdb0a49db19ca61c7d76bc9087baadb8fee8b8e835ac696384
+    deploy:
+      resources:
+        reservations:
+          memory: 64M
+    network_mode: bridge
+    ports:
+      - target: 8081
+        published: "8081"
+        protocol: tcp
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /DATA/AppData/sickchill/config
+        target: /config
+      - type: bind
+        source: /DATA/Downloads
+        target: /downloads
+      - type: bind
+        source: /DATA/Media/TV Shows
+        target: /tv
+    container_name: sickchill
+x-casaos:
+  main: sickchill
+  icon: https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages/apps/com.zimaos.sickchill/assets/icon.png
+  title:
+    en_US: Sickchill
+  port_map: "8081"
+  id: com.zimaos.sickchill

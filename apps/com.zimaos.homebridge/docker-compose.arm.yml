@@ -1,0 +1,22 @@
+name: homebridge
+version: "2"
+services:
+  homebridge:
+    image: homebridge/homebridge:latest@sha256:547c1429345a63537690198f20d8e48417ff0e0b9d452d10764a312c621e6cea
+    restart: always
+    network_mode: host
+    volumes:
+      - /DATA/AppData/$AppID/config:/homebridge
+    logging:
+      driver: json-file
+      options:
+        max-size: 10mb
+        max-file: "1"
+x-casaos:
+  main: homebridge
+  icon: https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages/apps/com.zimaos.homebridge/assets/icon.png
+  title:
+    en_US: Homebridge
+  index: /
+  port_map: "8581"
+  id: com.zimaos.homebridge

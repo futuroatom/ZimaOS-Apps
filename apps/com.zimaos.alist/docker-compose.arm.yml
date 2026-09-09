@@ -1,0 +1,27 @@
+name: alist
+services:
+  alist:
+    image: xhofe/alist:v3.41.0@sha256:f419f7c0f905a8bd5f08e224f0bf0a7f748bbaa7667b070e642697e673d14675
+    deploy:
+      resources:
+        reservations:
+          memory: 64M
+    network_mode: bridge
+    ports:
+      - target: 5244
+        published: "5244"
+        protocol: tcp
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/data
+        target: /opt/alist/data
+    container_name: alist
+x-casaos:
+  icon: https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages/apps/com.zimaos.alist/assets/icon.png
+  main: alist
+  port_map: "5244"
+  scheme: http
+  title:
+    en_US: Alist
+  id: com.zimaos.alist

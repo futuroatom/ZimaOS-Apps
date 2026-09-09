@@ -1,0 +1,36 @@
+name: simpletorrent
+services:
+  simpletorrent:
+    container_name: simpletorrent
+    image: boypt/cloud-torrent:1.3.9
+    deploy:
+      resources:
+        reservations:
+          memory: 256M
+    restart: unless-stopped
+    network_mode: bridge
+    privileged: false
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/torrents
+        target: /torrents
+      - type: bind
+        source: /DATA/Downloads
+        target: /downloads
+    ports:
+      - target: 3000
+        published: "3000"
+        protocol: tcp
+      - target: 50007
+        published: "50007"
+        protocol: udp
+x-casaos:
+  main: simpletorrent
+  icon: https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages/apps/com.zimaos.simpletorrent/assets/icon.png
+  title:
+    en_US: SimpleTorrent
+    zh_CN: SimpleTorrent
+    pt_BR: SimpleTorrent
+  index: /
+  port_map: "3000"
+  id: com.zimaos.simpletorrent

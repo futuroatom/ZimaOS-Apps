@@ -1,0 +1,58 @@
+# https://github.com/IceWhaleTech/CasaOS-AppStore/blob/main/CONTRIBUTING.md
+
+name: traefik
+services:
+  traefik:
+    container_name: traefik
+    #command: --api.insecure=true --providers.docker
+    command: >
+      sh -c '
+        if [ ! -f "/etc/traefik/traefik.yml" ]; then
+          echo -n "No config file found. Downloading config from GitHub... "
+          wget -O /etc/traefik/traefik.yml https://raw.githubusercontent.com/traefik/traefik/v2.10/traefik.sample.yml
+          if [ $? -eq 0 ]; then
+            echo "done."
+          else
+            echo "error."
+            exit 1
+          fi
+          echo -n "Enabeling API... "
+          sed -i "s/#api:/api:/" /etc/traefik/traefik.yml
+          sed -i "s/#  insecure:/  insecure:/" /etc/traefik/traefik.yml
+          echo "done."
+          echo -n "Enabeling Docker... "
+          sed -i "s/#providers:/providers:/g" /etc/traefik/traefik.yml
+          sed -i "s/#  docker:/  docker:/g" /etc/traefik/traefik.yml
+          sed -i "s/^#    endpoint: tcp:\/\/.*/    endpoint: \"unix:\/\/\/var\/run\/docker.sock\"/g"
+      /etc/traefik/traefik.yml
+          echo "done."
+        fi
+        traefik'
+    image: traefik:latest@sha256:444bb54c1f7ebe5fac94d1c40f02b48c08dc005a92fc65ca29c1c75991d16baa
+    network_mode: bridge
+    ports:
+      - target: 80
+        published: "81"
+        protocol: tcp
+      - target: 443
+        published: "443"
+        protocol: tcp
+      - target: 8080
+        published: "8080"
+        protocol: tcp
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /var/run/docker.sock
+        target: /var/run/docker.sock
+      - type: bind
+        source: /DATA/AppData/$AppID/config
+        target: /etc/traefik
+x-casaos:
+  icon: https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages/apps/com.zimaos.traefik/assets/icon.png
+  index: /dashboard/
+  main: traefik
+  port_map: "8080"
+  title:
+    en_US: Traefik
+  id: com.zimaos.traefik

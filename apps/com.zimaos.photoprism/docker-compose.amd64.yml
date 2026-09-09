@@ -1,0 +1,34 @@
+name: photoprism
+services:
+  photoprism:
+    environment:
+      PHOTOPRISM_ADMIN_PASSWORD: casaos
+      PHOTOPRISM_UPLOAD_NSFW: "true"
+      TZ: $TZ
+    image: photoprism/photoprism:240915@sha256:32da029428be9335889ab13f03ea839201af49c2a1699c8f7c4de5b5911e2e1a
+    deploy:
+      resources:
+        reservations:
+          memory: 512M
+    network_mode: bridge
+    ports:
+      - target: 2342
+        published: "2342"
+        protocol: tcp
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/photoprism/storage
+        target: /photoprism/storage
+      - type: bind
+        source: /DATA/Gallery
+        target: /photoprism/originals
+    container_name: photoprism
+x-casaos:
+  main: photoprism
+  icon: https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages/apps/com.zimaos.photoprism/assets/icon.png
+  title:
+    en_US: PhotoPrism
+  index: /
+  port_map: "2342"
+  id: com.zimaos.photoprism

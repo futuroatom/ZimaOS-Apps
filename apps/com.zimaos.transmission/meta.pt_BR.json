@@ -1,0 +1,5 @@
+{
+  "id": "com.zimaos.transmission",
+  "description": "Transmission é um projeto de código aberto, baseado em voluntários. Ao contrário de alguns clientes BitTorrent, o Transmission não joga com seus usuários para ganhar dinheiro: o Transmission não inclui barras de ferramentas, anúncios pop-up, anúncios flash, ferramentas do Twitter ou qualquer outra coisa. Ele não mantém algumas funcionalidades para uma versão pagável. Seu código-fonte está disponível para qualquer um revisar. Nós não rastreamos nossos usuários e nosso site e fóruns não têm anúncios ou análises de terceiros.\n",
+  "tagline": "Transmission é um cliente BitTorrent multiplataforma"
+}

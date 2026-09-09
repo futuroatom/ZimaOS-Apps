@@ -1,0 +1,38 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64",
+    "ppc64le",
+    "s390x",
+    "386",
+    "arm"
+  ],
+  "author": "OpenSpeedTest",
+  "category": "Utilities",
+  "description": "An application for launching HTML5 Network Speed Test Server. You can test download & upload speed from any device within your network with a web browser that is IE10 or new.",
+  "developer": "OpenSpeedTest",
+  "screenshot_link": [
+    "/apps/com.zimaos.openspeedtest/assets/screenshot-1.webp",
+    "/apps/com.zimaos.openspeedtest/assets/screenshot-2.webp",
+    "/apps/com.zimaos.openspeedtest/assets/screenshot-3.webp"
+  ],
+  "tagline": "HTML5 Network Speed Test Server.",
+  "thumbnail": "/apps/com.zimaos.openspeedtest/assets/thumbnail.webp",
+  "tips": {},
+  "title": "OpenSpeedTest",
+  "base_url": "https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages",
+  "id": "com.zimaos.openspeedtest",
+  "version": "",
+  "categories": [
+    "utilities"
+  ],
+  "min_memory": 67108864,
+  "min_image_size": {
+    "386": 189116369,
+    "amd64": 110128710,
+    "arm": 188146329,
+    "arm64": 109733513,
+    "ppc64le": 192141350,
+    "s390x": 193944593
+  }
+}

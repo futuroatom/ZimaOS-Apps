@@ -1,0 +1,30 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64",
+    "arm"
+  ],
+  "author": "mr-manuel",
+  "category": "Home Automation",
+  "description": "Visit [Zigbee2MQTT](https://www.zigbee2mqtt.io) for more details. Check the [documentation](https://www.zigbee2mqtt.io/guide/getting-started/) for further settings.\n",
+  "developer": "Koenkk (Koen Kanters)",
+  "project_url": "https://github.com/mr-manuel/CasaOS-HomeAutomation-AppStore",
+  "tagline": "Zigbee2MQTT allows you to use your Zigbee devices without the vendor's bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.\n",
+  "thumbnail": "/apps/com.zimaos.zigbee2mqtt/assets/icon.webp",
+  "tips": {
+    "before_install": "The Zigbee2MQTT will be reachable at port `8080`.\n\nPlease configure the configuration.yaml of Zigbee2MQTT based on [here](https://www.zigbee2mqtt.io/guide/installation/01_linux.html#configuring).\n[Website](https://www.zigbee2mqtt.io/) &bull; [Documentation](https://www.zigbee2mqtt.io/guide/getting-started/)\n"
+  },
+  "title": "Zigbee2MQTT",
+  "base_url": "https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages",
+  "id": "com.zimaos.zigbee2mqtt",
+  "version": "",
+  "categories": [
+    "home automation"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 48006144,
+    "arm": 45805593,
+    "arm64": 47721262
+  }
+}

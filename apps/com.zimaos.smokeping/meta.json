@@ -1,0 +1,32 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Network",
+  "description": "keeps track of your network latency.",
+  "developer": "Lazylibrarian Team",
+  "screenshot_link": [
+    "/apps/com.zimaos.smokeping/assets/screenshot-1.webp",
+    "/apps/com.zimaos.smokeping/assets/screenshot-2.webp",
+    "/apps/com.zimaos.smokeping/assets/screenshot-3.webp",
+    "/apps/com.zimaos.smokeping/assets/screenshot-4.webp",
+    "/apps/com.zimaos.smokeping/assets/screenshot-5.webp"
+  ],
+  "tagline": "Free open source network performance monitoring tool",
+  "thumbnail": "/apps/com.zimaos.smokeping/assets/thumbnail.webp",
+  "tips": {},
+  "title": "Smokeping",
+  "base_url": "https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages",
+  "id": "com.zimaos.smokeping",
+  "version": "",
+  "categories": [
+    "network"
+  ],
+  "min_memory": 67108864,
+  "min_image_size": {
+    "amd64": 122979869,
+    "arm64": 124258251
+  }
+}

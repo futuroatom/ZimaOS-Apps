@@ -1,0 +1,6 @@
+{
+  "id": "com.zimaos.simpletorrent",
+  "title": "SimpleTorrent",
+  "description": "SimpleTorrent é um cliente torrent remoto auto-hospedado, desenvolvido em Go (golang). Inicia torrents remotamente, baixa conjuntos de arquivos no disco local do servidor, os quais podem então ser recuperados ou transmitidos via HTTP.",
+  "tagline": "Cliente de torrent remoto auto-hospedado."
+}

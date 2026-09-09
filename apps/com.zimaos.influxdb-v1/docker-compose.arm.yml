@@ -1,0 +1,33 @@
+# https://github.com/IceWhaleTech/CasaOS-AppStore/blob/main/CONTRIBUTING.md
+
+name: influxdb-v1
+services:
+  influxdb-v1:
+    container_name: influxdb-v1
+    image: influxdb:1.8@sha256:5b3ed6d93e1e2236940d44f883422fbdb74fb9fde6f448e58819fb7406ec8bf1
+    network_mode: bridge
+    ports:
+      - target: 8086
+        published: "8091"
+        protocol: tcp
+    restart: unless-stopped
+    healthcheck:
+      test: curl --fail -s http://localhost:8086/health || exit 1
+      interval: 60s
+      timeout: 10s
+      retries: 3
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/config
+        target: /etc/influxdb
+      - type: bind
+        source: /DATA/AppData/$AppID/data
+        target: /var/lib/influxdb
+x-casaos:
+  icon: https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages/apps/com.zimaos.influxdb-v1/assets/icon.png
+  index: /health
+  main: influxdb-v1
+  port_map: "8091"
+  title:
+    en_US: InfluxDB v1
+  id: com.zimaos.influxdb-v1

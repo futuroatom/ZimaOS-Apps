@@ -1,0 +1,40 @@
+name: pyload
+services:
+  pyload:
+    container_name: pyload
+    image: linuxserver/pyload-ng:0.5.0@sha256:e418a0b51f23aea4723117ed37846b520fce227c9b091568aa2e2f3f6f659a9b
+    deploy:
+      resources:
+        reservations:
+          memory: 256M
+    environment:
+      PGID: $PGID
+      PUID: $PUID
+      TZ: $TZ
+    restart: unless-stopped
+    network_mode: bridge
+    privileged: false
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/config
+        target: /config
+      - type: bind
+        source: /DATA/Downloads
+        target: /downloads
+    ports:
+      - target: 8000
+        published: "8000"
+        protocol: tcp
+      - target: 9666
+        published: "9666"
+        protocol: tcp
+x-casaos:
+  main: pyload
+  icon: https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages/apps/com.zimaos.pyload/assets/icon.png
+  title:
+    en_US: PyLoad
+    zh_CN: PyLoad
+    pt_BR: PyLoad
+  index: /
+  port_map: "8000"
+  id: com.zimaos.pyload

@@ -1,0 +1,34 @@
+{
+  "architectures": [
+    "amd64",
+    "386",
+    "arm64",
+    "arm"
+  ],
+  "author": "CasaOS Team",
+  "category": "Utilities",
+  "description": "2FAuth is a web based self-hosted alternative to One Time Passcode (OTP) generators like Google Authenticator, designed for both mobile and desktop.",
+  "developer": "Bubka",
+  "screenshot_link": [
+    "/apps/com.zimaos.2fauth/assets/screenshot-1.webp",
+    "/apps/com.zimaos.2fauth/assets/screenshot-2.webp",
+    "/apps/com.zimaos.2fauth/assets/screenshot-3.webp"
+  ],
+  "tagline": "A web app to manage your Two-Factor Authentication (2FA) accounts and generate their security codes",
+  "thumbnail": "/apps/com.zimaos.2fauth/assets/thumbnail.webp",
+  "tips": {},
+  "title": "2FAuth",
+  "base_url": "https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages",
+  "id": "com.zimaos.2fauth",
+  "version": "",
+  "categories": [
+    "utilities"
+  ],
+  "min_memory": 67108864,
+  "min_image_size": {
+    "386": 34967078,
+    "amd64": 36324404,
+    "arm": 33076423,
+    "arm64": 35658216
+  }
+}

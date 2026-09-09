@@ -1,0 +1,26 @@
+name: lucky
+services:
+  lucky:
+    deploy:
+      resources:
+        reservations:
+          memory: 64M
+    image: gdy666/lucky:2.14.0@sha256:b92d3e5ea5cbd1f389b50a517616bdb4244a319525562be67f1cf5e5a78caf16
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /DATA/AppData/lucky
+        target: /goodluck
+    environment:
+      TZ: $TZ
+    network_mode: host
+    privileged: false
+x-casaos:
+  main: lucky
+  icon: https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages/apps/com.zimaos.lucky/assets/icon.png
+  index: /
+  title:
+    en_US: Lucky
+  port_map: "16601"
+  scheme: http
+  id: com.zimaos.lucky

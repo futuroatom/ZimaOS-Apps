@@ -1,0 +1,30 @@
+name: n8n
+services:
+  n8n:
+    environment:
+      TZ: $TZ
+      N8N_SECURE_COOKIE: "false"
+    image: n8nio/n8n:1.73.1@sha256:74d159150d3dd071a1399220e1773674fd5136a06f3157415067dd531ed89713
+    deploy:
+      resources:
+        reservations:
+          memory: 320M
+    network_mode: bridge
+    ports:
+      - target: 5678
+        published: "5678"
+        protocol: tcp
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID
+        target: /home/node/.n8n
+    container_name: n8n
+x-casaos:
+  main: n8n
+  icon: https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages/apps/com.zimaos.n8n/assets/icon.png
+  title:
+    en_US: n8n
+  index: /
+  port_map: "5678"
+  id: com.zimaos.n8n

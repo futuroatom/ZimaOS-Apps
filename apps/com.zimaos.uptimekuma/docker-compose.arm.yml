@@ -1,0 +1,27 @@
+name: uptimekuma
+services:
+  uptimekuma:
+    image: louislam/uptime-kuma:1.23.16@sha256:be076a8389d5b3436ad6860588a94f13541cbd07217ac0b7b265733cf62947a3
+    deploy:
+      resources:
+        reservations:
+          memory: 128M
+    network_mode: bridge
+    ports:
+      - target: 3001
+        published: "3001"
+        protocol: tcp
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/app/data
+        target: /app/data
+    container_name: uptimekuma
+x-casaos:
+  main: uptimekuma
+  icon: https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages/apps/com.zimaos.uptimekuma/assets/icon.png
+  title:
+    en_US: Uptime Kuma
+  index: /
+  port_map: "3001"
+  id: com.zimaos.uptimekuma

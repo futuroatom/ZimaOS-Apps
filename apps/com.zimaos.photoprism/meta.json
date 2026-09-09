@@ -1,0 +1,32 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Gallery",
+  "description": "Your AI-Powered Photos App for the Decentralized Web\n\nPhotoPrism brings the magic of AI to your home TV, phone, and multiple devices, revolutionizing the way you manage and share your photos. Unlike traditional photo albums that require manual organization, PhotoPrism automatically tags and finds your pictures, making it easier than ever to relive your memories. Whether you're showing family photos on your TV or sharing vacation snapshots on your phone, PhotoPrism makes the experience seamless and enjoyable.\n\nPhotoPrism offers a host of features designed to enhance your photo management experience. With powerful search capabilities, automatic tagging, and a user-friendly interface, you'll find it easy to keep your photo collection organized. The app is free to use, with premium options available for those seeking additional features and support. Users can expect a smooth, intuitive experience that blends cutting-edge technology with everyday convenience.\n\nDeploying PhotoPrism on Zima private cloud devices offers unparalleled convenience. Enjoy unlimited storage capacity, the speed of your local network, and access from multiple devices without the need for the internet. It's the perfect solution for NAS enthusiasts who value privacy and performance.\n",
+  "developer": "PhotoPrism",
+  "screenshot_link": [
+    "/apps/com.zimaos.photoprism/assets/screenshot-1.webp",
+    "/apps/com.zimaos.photoprism/assets/screenshot-2.webp",
+    "/apps/com.zimaos.photoprism/assets/screenshot-3.webp"
+  ],
+  "tagline": "Browse Your Life in Images",
+  "thumbnail": "/apps/com.zimaos.photoprism/assets/thumbnail.webp",
+  "tips": {
+    "before_install": "## PhotoPrism\n\nDefault Account\n\n| Username | Password |\n| -------- | -------- |\n| `admin`    | `casaos`   |\n"
+  },
+  "title": "PhotoPrism",
+  "base_url": "https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages",
+  "id": "com.zimaos.photoprism",
+  "version": "",
+  "categories": [
+    "gallery"
+  ],
+  "min_memory": 536870912,
+  "min_image_size": {
+    "amd64": 890142897,
+    "arm64": 777443086
+  }
+}

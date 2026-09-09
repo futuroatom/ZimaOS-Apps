@@ -1,0 +1,37 @@
+name: medusa
+services:
+  medusa:
+    container_name: medusa
+    deploy:
+      resources:
+        limits:
+          memory: 7848M
+    environment:
+      - TZ= $TZ
+    image: pymedusa/medusa:master@sha256:995703fd2a112d26b7a4a6f002dd5fd7a002c8e82a3b3ce71066dac069539aca
+    ports:
+      - target: 8081
+        published: "8081"
+        protocol: tcp
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID
+        target: /config
+      - type: bind
+        source: /DATA/AppData/$AppID/Downloads/Television
+        target: /downloads
+      - type: bind
+        source: /DATA/AppData/$AppID/Media/Television
+        target: /tv
+    network_mode: bridge
+    privileged: false
+x-casaos:
+  main: medusa
+  icon: https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages/apps/com.zimaos.medusa/assets/icon.png
+  index: /
+  port_map: "8081"
+  scheme: http
+  title:
+    en_US: Medusa
+  id: com.zimaos.medusa

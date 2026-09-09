@@ -1,0 +1,29 @@
+name: label-studio
+services:
+  label-studio:
+    environment:
+      PGID: $PGID
+      PUID: $PUID
+      TZ: $TZ
+    image: heartexlabs/label-studio:1.15.0@sha256:aa6fe9ff0ae2a25803c33029f481193417d674d2d907a854255a2030cf52a083
+    deploy:
+      resources:
+        reservations:
+          memory: 256M
+    network_mode: bridge
+    ports:
+      - target: 8080
+        published: "3080"
+        protocol: tcp
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/data
+        target: /label-studio/data
+x-casaos:
+  main: label-studio
+  icon: https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages/apps/com.zimaos.labelstudio/assets/icon.png
+  title:
+    en_US: Label Studio
+  port_map: "3080"
+  id: com.zimaos.labelstudio

@@ -1,0 +1,32 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64",
+    "arm"
+  ],
+  "author": "Jason McFeetors",
+  "developer": "pyMedusa (https://github.com/pymedusa)",
+  "category": "Media",
+  "description": "Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic.",
+  "screenshot_link": [
+    "/apps/com.zimaos.medusa/assets/screenshot-1.webp",
+    "/apps/com.zimaos.medusa/assets/screenshot-2.webp",
+    "/apps/com.zimaos.medusa/assets/screenshot-3.webp",
+    "/apps/com.zimaos.medusa/assets/screenshot-4.webp",
+    "/apps/com.zimaos.medusa/assets/screenshot-5.webp",
+    "/apps/com.zimaos.medusa/assets/screenshot-6.webp"
+  ],
+  "title": "Medusa",
+  "base_url": "https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages",
+  "id": "com.zimaos.medusa",
+  "version": "",
+  "categories": [
+    "media"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 96884612,
+    "arm": 85066782,
+    "arm64": 95605994
+  }
+}

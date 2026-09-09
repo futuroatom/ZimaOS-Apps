@@ -1,0 +1,30 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Media",
+  "description": "Bringing all of your home videos, music, and photos together into one place has never been easier. Your personal Emby Server automatically converts and streams your media on-the-fly to play on any device.",
+  "developer": "linuxserver",
+  "screenshot_link": [
+    "/apps/com.zimaos.emby-nvidia/assets/screenshot-1.webp",
+    "/apps/com.zimaos.emby-nvidia/assets/screenshot-2.webp",
+    "/apps/com.zimaos.emby-nvidia/assets/screenshot-3.webp"
+  ],
+  "tagline": "TAKE YOUR MEDIA ANYWHERE WITH EMBY",
+  "thumbnail": "/apps/com.zimaos.emby-nvidia/assets/thumbnail.webp",
+  "tips": {},
+  "title": "Emby(Nvidia GPU)",
+  "base_url": "https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages",
+  "id": "com.zimaos.emby-nvidia",
+  "version": "",
+  "categories": [
+    "media"
+  ],
+  "min_memory": 268435456,
+  "min_image_size": {
+    "amd64": 320740066,
+    "arm64": 188245017
+  }
+}

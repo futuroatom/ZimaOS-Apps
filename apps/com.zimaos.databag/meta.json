@@ -1,0 +1,27 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Databag is a federated chat app for self-hosting that focuses on user privacy and security; the service includes clients for iOS, Android, and browser.",
+  "tagline": "Messenger for the Decentralized Web",
+  "developer": "balzack",
+  "screenshot_link": [
+    "/apps/com.zimaos.databag/assets/screenshot-1.webp",
+    "/apps/com.zimaos.databag/assets/screenshot-2.webp"
+  ],
+  "author": "Pierre Balzack",
+  "category": "Chat",
+  "title": "Databag",
+  "base_url": "https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages",
+  "id": "com.zimaos.databag",
+  "version": "",
+  "categories": [
+    "chat"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 386897120,
+    "arm64": 364502731
+  }
+}

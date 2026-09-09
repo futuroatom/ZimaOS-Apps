@@ -1,0 +1,25 @@
+version: "3.7"
+name: cncjs
+services:
+  cncjs:
+    container_name: CNCjs
+    image: cncjs/cncjs:latest
+    ports:
+      - "8005:8000"
+    volumes:
+      - /DATA/AppData/CNCjs:/cncjs
+    network_mode: bridge
+    hostname: cncjs
+    restart: unless-stopped
+    devices:
+      - /dev/ttyUSB0:/dev/ttyUSB0
+    # CasaOS specific configuration for volume and port descriptions
+x-casaos:
+  main: CNCjs
+  icon: https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages/apps/com.zimaos.cncjs/assets/icon.png
+  title:
+    en_US: CNCjs
+  port_map: "8000"
+  scheme: http
+  index: /
+  id: com.zimaos.cncjs

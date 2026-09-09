@@ -1,0 +1,23 @@
+name: openspeedtest
+services:
+  openspeedtest:
+    image: openspeedtest/latest:v2.0.5@sha256:4a16035ffedaf433cb857adaa0469c4002468f97767877b490e257458f0ec065
+    deploy:
+      resources:
+        reservations:
+          memory: 64M
+    network_mode: bridge
+    ports:
+      - target: 3000
+        published: "3004"
+        protocol: tcp
+    restart: always
+    container_name: openspeedtest
+x-casaos:
+  main: openspeedtest
+  icon: https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages/apps/com.zimaos.openspeedtest/assets/icon.png
+  title:
+    en_US: OpenSpeedTest
+  index: /
+  port_map: "3004"
+  id: com.zimaos.openspeedtest

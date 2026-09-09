@@ -1,0 +1,32 @@
+{
+  "architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ],
+  "author": "Cp0204",
+  "category": "Cloud",
+  "description": "Access your remote cloud files as if they were local files using Alist.\n\nDeploy Alist on your Zima devices and unlock the full potential of your digital storage by integrating it with Plex, Jellyfin, and Emby. You can access your cloud resources within these applications, save shared resources to your cloud drive, and use them directly in your local software without additional downloads.\n",
+  "developer": "Xhofe",
+  "screenshot_link": [
+    "/apps/com.zimaos.alist/assets/screenshot-1.webp"
+  ],
+  "tagline": "A file list program that supports multiple storage",
+  "thumbnail": "/apps/com.zimaos.alist/assets/thumbnail.webp",
+  "tips": {
+    "before_install": "After installation, please check the initial password in the container log (Settings - TopRight - Terminal and Logs - Logs)."
+  },
+  "title": "Alist",
+  "base_url": "https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages",
+  "id": "com.zimaos.alist",
+  "version": "",
+  "categories": [
+    "cloud"
+  ],
+  "min_memory": 67108864,
+  "min_image_size": {
+    "amd64": 37938059,
+    "arm": 34635120,
+    "arm64": 37228644
+  }
+}

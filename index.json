@@ -1,0 +1,1574 @@
+{
+  "version": 2,
+  "updated_at": "2026-09-09T06:26:22Z",
+  "app_count": 77,
+  "base_url": "https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages",
+  "apps": [
+    {
+      "id": "com.zimaos.2fauth",
+      "title": "2FAuth",
+      "tagline": "A web app to manage your Two-Factor Authentication (2FA) accounts and generate their security codes",
+      "category": "Utilities",
+      "categories": [
+        "utilities"
+      ],
+      "author": "CasaOS Team",
+      "developer": "Bubka",
+      "architectures": [
+        "amd64",
+        "386",
+        "arm64",
+        "arm"
+      ],
+      "icon": "/apps/com.zimaos.2fauth/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.2fauth/assets/thumbnail.webp",
+      "compose_url": "/apps/com.zimaos.2fauth/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.2fauth/meta.json",
+      "content_hash": "a7e4576e"
+    },
+    {
+      "id": "com.zimaos.adguardhome",
+      "title": "AdGuard Home",
+      "tagline": "Blocking ads & tracking Network-widly",
+      "category": "Network",
+      "categories": [
+        "network"
+      ],
+      "author": "CasaOS Team",
+      "developer": "AdguardTeam",
+      "architectures": [
+        "386",
+        "amd64",
+        "arm",
+        "arm64",
+        "ppc64le"
+      ],
+      "icon": "/apps/com.zimaos.adguardhome/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.adguardhome/assets/thumbnail.webp",
+      "compose_url": "/apps/com.zimaos.adguardhome/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.adguardhome/meta.json",
+      "content_hash": "f1c5b7a1"
+    },
+    {
+      "id": "com.zimaos.adminer",
+      "title": "Adminer",
+      "tagline": "Database management in a single PHP file",
+      "category": "Database",
+      "categories": [
+        "database"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.adminer/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.adminer/assets/thumbnail.webp",
+      "compose_url": "/apps/com.zimaos.adminer/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.adminer/meta.json",
+      "content_hash": "4d17f4d1"
+    },
+    {
+      "id": "com.zimaos.albyhub",
+      "title": "Alby Hub",
+      "tagline": "A simple Bitcoin Lightning node with a wallet, subaccounts and NWC connections.",
+      "category": "Finance",
+      "categories": [
+        "finance"
+      ],
+      "author": "calganaygun",
+      "developer": "",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.albyhub/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/com.zimaos.albyhub/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.albyhub/meta.json",
+      "content_hash": "579abc30"
+    },
+    {
+      "id": "com.zimaos.alist",
+      "title": "Alist",
+      "tagline": "A file list program that supports multiple storage",
+      "category": "Cloud",
+      "categories": [
+        "cloud"
+      ],
+      "author": "Cp0204",
+      "developer": "Xhofe",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.alist/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.alist/assets/thumbnail.webp",
+      "compose_url": "/apps/com.zimaos.alist/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.alist/meta.json",
+      "content_hash": "77444491"
+    },
+    {
+      "id": "com.zimaos.anaconda3",
+      "title": "Anaconda3",
+      "tagline": "Your machine learning Env work with Jupyter Lab",
+      "category": "AI",
+      "categories": [
+        "ai"
+      ],
+      "author": "LisonEvf",
+      "developer": "LisonEvf",
+      "architectures": [
+        "amd64"
+      ],
+      "icon": "/apps/com.zimaos.anaconda3/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.anaconda3/assets/thumbnail.webp",
+      "compose_url": "/apps/com.zimaos.anaconda3/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.anaconda3/meta.json",
+      "content_hash": "87ea3828"
+    },
+    {
+      "id": "com.zimaos.anyingllm",
+      "title": "AnythingLLM",
+      "tagline": "The all-in-one AI application.",
+      "category": "Chat",
+      "categories": [
+        "chat"
+      ],
+      "author": "",
+      "developer": "Mintplex Labs",
+      "architectures": [
+        "amd64"
+      ],
+      "icon": "/apps/com.zimaos.anyingllm/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/com.zimaos.anyingllm/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.anyingllm/meta.json",
+      "content_hash": "13565dc6"
+    },
+    {
+      "id": "com.zimaos.anythingllm",
+      "title": "AnythingLLM",
+      "tagline": "The all-in-one AI application.",
+      "category": "Chat",
+      "categories": [
+        "chat"
+      ],
+      "author": "",
+      "developer": "Mintplex Labs",
+      "architectures": [
+        "amd64"
+      ],
+      "icon": "/apps/com.zimaos.anythingllm/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/com.zimaos.anythingllm/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.anythingllm/meta.json",
+      "content_hash": "465a7a0a"
+    },
+    {
+      "id": "com.zimaos.anytingllm",
+      "title": "AnythingLLM",
+      "tagline": "The all-in-one AI application.",
+      "category": "Chat",
+      "categories": [
+        "chat"
+      ],
+      "author": "",
+      "developer": "Mintplex Labs",
+      "architectures": [
+        "amd64"
+      ],
+      "icon": "/apps/com.zimaos.anytingllm/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/com.zimaos.anytingllm/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.anytingllm/meta.json",
+      "content_hash": "8c4cb70e"
+    },
+    {
+      "id": "com.zimaos.blender",
+      "title": "Blender",
+      "tagline": "A free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, art, 3D printed models, motion graphics, interactive 3D applications, virtual reality, and computer games. This image does not support GPU rendering out of the box only accelerated workspace experience",
+      "category": "LinuxServer.io",
+      "categories": [
+        "linuxserver.io"
+      ],
+      "author": "WisdomSky",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.blender/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.blender/assets/blender-logo.webp",
+      "compose_url": "/apps/com.zimaos.blender/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.blender/meta.json",
+      "content_hash": "d8c2ba1c"
+    },
+    {
+      "id": "com.zimaos.chatgpt-next-web",
+      "title": "ChatGPT Next Web",
+      "tagline": "A well-designed cross-platform ChatGPT UI.",
+      "category": "Utilities",
+      "categories": [
+        "utilities"
+      ],
+      "author": "CorrectRoadH,Cp0204",
+      "developer": "Yidadaa",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.chatgpt-next-web/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.chatgpt-next-web/assets/thumbnail.webp",
+      "compose_url": "/apps/com.zimaos.chatgpt-next-web/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.chatgpt-next-web/meta.json",
+      "content_hash": "4481838c"
+    },
+    {
+      "id": "com.zimaos.cloudbeaver",
+      "title": "CloudBeaver",
+      "tagline": "Cloud Database Manager.",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "joaobosconff",
+      "developer": "dbeaver",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.cloudbeaver/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/com.zimaos.cloudbeaver/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.cloudbeaver/meta.json",
+      "content_hash": "94d3d9fb"
+    },
+    {
+      "id": "com.zimaos.cncjs",
+      "title": "CNCjs",
+      "tagline": "Web-based CNC milling controller interface",
+      "category": "Makerspace",
+      "categories": [
+        "makerspace"
+      ],
+      "author": "JustSerdar",
+      "developer": "cncjs",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.cncjs/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.cncjs/assets/logo.webp",
+      "compose_url": "/apps/com.zimaos.cncjs/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.cncjs/meta.json",
+      "content_hash": "d759bdef"
+    },
+    {
+      "id": "com.zimaos.coolify",
+      "title": "Coolify",
+      "tagline": "Coolify",
+      "category": "SelfHost",
+      "categories": [
+        "selfhost"
+      ],
+      "author": "JustSerdar",
+      "developer": "coollabsio",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.coolify/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/com.zimaos.coolify/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.coolify/meta.json",
+      "content_hash": "109d3470"
+    },
+    {
+      "id": "com.zimaos.databag",
+      "title": "Databag",
+      "tagline": "Messenger for the Decentralized Web",
+      "category": "Chat",
+      "categories": [
+        "chat"
+      ],
+      "author": "Pierre Balzack",
+      "developer": "balzack",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.databag/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/com.zimaos.databag/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.databag/meta.json",
+      "content_hash": "35edfaa3"
+    },
+    {
+      "id": "com.zimaos.ddns-go",
+      "title": "ddns-go",
+      "tagline": "Simple and easy to use DDNS",
+      "category": "Network",
+      "categories": [
+        "network"
+      ],
+      "author": "zxxhz,Cp0204",
+      "developer": "jeessy2",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.ddns-go/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/com.zimaos.ddns-go/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.ddns-go/meta.json",
+      "content_hash": "b8bc050e"
+    },
+    {
+      "id": "com.zimaos.ddns-updater",
+      "title": "ddns-updater",
+      "tagline": "Simple and easy to use DDNS",
+      "category": "Network",
+      "categories": [
+        "network"
+      ],
+      "author": "rstuhlmuller",
+      "developer": "qmcgaw",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.ddns-updater/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/com.zimaos.ddns-updater/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.ddns-updater/meta.json",
+      "content_hash": "e16e7e52"
+    },
+    {
+      "id": "com.zimaos.deluge",
+      "title": "Deluge",
+      "tagline": "A lightweight and free BitTorrent client.",
+      "category": "Downloader",
+      "categories": [
+        "downloader"
+      ],
+      "author": "CasaOS Team",
+      "developer": "Deluge Team",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.deluge/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.deluge/assets/thumbnail.webp",
+      "compose_url": "/apps/com.zimaos.deluge/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.deluge/meta.json",
+      "content_hash": "f71413c9"
+    },
+    {
+      "id": "com.zimaos.duplicati",
+      "title": "Duplicati",
+      "tagline": "Store securely encrypted backups in the cloud!",
+      "category": "Cloud",
+      "categories": [
+        "cloud"
+      ],
+      "author": "CasaOS Team",
+      "developer": "duplicati",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.duplicati/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.duplicati/assets/thumbnail.webp",
+      "compose_url": "/apps/com.zimaos.duplicati/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.duplicati/meta.json",
+      "content_hash": "5c0fdaa1"
+    },
+    {
+      "id": "com.zimaos.emby-nvidia",
+      "title": "Emby(Nvidia GPU)",
+      "tagline": "TAKE YOUR MEDIA ANYWHERE WITH EMBY",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "CasaOS Team",
+      "developer": "linuxserver",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.emby-nvidia/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.emby-nvidia/assets/thumbnail.webp",
+      "compose_url": "/apps/com.zimaos.emby-nvidia/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.emby-nvidia/meta.json",
+      "content_hash": "66a4a299"
+    },
+    {
+      "id": "com.zimaos.embystat",
+      "title": "Embystat",
+      "tagline": "Calculate all kinds of statistics from your (local) Emby or Jellyfin server",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "CasaOS Team",
+      "developer": "Embystart Team",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.embystat/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/com.zimaos.embystat/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.embystat/meta.json",
+      "content_hash": "bd1fb144"
+    },
+    {
+      "id": "com.zimaos.emulatorjs",
+      "title": "emulatorjs",
+      "tagline": "",
+      "category": "Utilities",
+      "categories": [
+        "utilities"
+      ],
+      "author": "self",
+      "developer": "",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.emulatorjs/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/com.zimaos.emulatorjs/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.emulatorjs/meta.json",
+      "content_hash": "f29e8944"
+    },
+    {
+      "id": "com.zimaos.esphome",
+      "title": "ESPHome",
+      "tagline": "Home Automation systems",
+      "category": "Home Automation",
+      "categories": [
+        "home automation"
+      ],
+      "author": "kd9lsv",
+      "developer": "",
+      "architectures": [
+        "amd64",
+        "arm64",
+        "arm"
+      ],
+      "icon": "/apps/com.zimaos.esphome/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/com.zimaos.esphome/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.esphome/meta.json",
+      "content_hash": "4b5095f3"
+    },
+    {
+      "id": "com.zimaos.filedrop",
+      "title": "FileDrop",
+      "tagline": "FileDrop is a free, open source file sharing service",
+      "category": "Cloud",
+      "categories": [
+        "cloud"
+      ],
+      "author": "Noé Favier",
+      "developer": "Noé Favier (noe.favier@outlook.com)",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.filedrop/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/com.zimaos.filedrop/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.filedrop/meta.json",
+      "content_hash": "ffd30096"
+    },
+    {
+      "id": "com.zimaos.fileflows",
+      "title": "FileFlows",
+      "tagline": "File processing made easy!",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "FileFlows",
+      "developer": "FileFlows",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.fileflows/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/com.zimaos.fileflows/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.fileflows/meta.json",
+      "content_hash": "60d7d2ca"
+    },
+    {
+      "id": "com.zimaos.firefly",
+      "title": "Firefly",
+      "tagline": "Firefly, the easiest using of WireGuard VPN server, plus version of wg-easy.",
+      "category": "VPN",
+      "categories": [
+        "vpn"
+      ],
+      "author": "Cp0204",
+      "developer": "Safe3",
+      "architectures": [
+        "amd64",
+        "arm64",
+        "arm"
+      ],
+      "icon": "/apps/com.zimaos.firefly/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/com.zimaos.firefly/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.firefly/meta.json",
+      "content_hash": "e3d743ca"
+    },
+    {
+      "id": "com.zimaos.freshrss",
+      "title": "FreshRSS",
+      "tagline": "A free, self-hostable news aggregator…",
+      "category": "Utilities",
+      "categories": [
+        "utilities"
+      ],
+      "author": "FreshRSS",
+      "developer": "FreshRSS",
+      "architectures": [
+        "amd64",
+        "arm64",
+        "arm"
+      ],
+      "icon": "/apps/com.zimaos.freshrss/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/com.zimaos.freshrss/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.freshrss/meta.json",
+      "content_hash": "477df264"
+    },
+    {
+      "id": "com.zimaos.gitea",
+      "title": "Gitea",
+      "tagline": "Self-hosted software development service",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "CasaOS Team",
+      "developer": "Gitea",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.gitea/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.gitea/assets/thumbnail.webp",
+      "compose_url": "/apps/com.zimaos.gitea/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.gitea/meta.json",
+      "content_hash": "fb60c762"
+    },
+    {
+      "id": "com.zimaos.gopeed",
+      "title": "Gopeed",
+      "tagline": "Open source, lightweight, native, supports (HTTP, BitTorrent, Magnet , etc.) for downloading.",
+      "category": "Utilities",
+      "categories": [
+        "utilities"
+      ],
+      "author": "joaobosconff",
+      "developer": "GopeedLab",
+      "architectures": [
+        "amd64",
+        "arm64",
+        "arm"
+      ],
+      "icon": "/apps/com.zimaos.gopeed/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/com.zimaos.gopeed/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.gopeed/meta.json",
+      "content_hash": "11cbc5a3"
+    },
+    {
+      "id": "com.zimaos.handbrake",
+      "title": "handbrake",
+      "tagline": "Liberate your videos and unleash infinite possibilities.",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "self",
+      "developer": "",
+      "architectures": [
+        "amd64"
+      ],
+      "icon": "/apps/com.zimaos.handbrake/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/com.zimaos.handbrake/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.handbrake/meta.json",
+      "content_hash": "f45b1843"
+    },
+    {
+      "id": "com.zimaos.homebridge",
+      "title": "Homebridge",
+      "tagline": "HomeKit support for the impatient.",
+      "category": "Home Automation",
+      "categories": [
+        "home automation"
+      ],
+      "author": "UnderCurve",
+      "developer": "Homebridge",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.homebridge/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/com.zimaos.homebridge/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.homebridge/meta.json",
+      "content_hash": "8eb94be3"
+    },
+    {
+      "id": "com.zimaos.influxdb-v1",
+      "title": "InfluxDB v1",
+      "tagline": "Manage all types of time series data in a single, purpose-built database.\n",
+      "category": "Database",
+      "categories": [
+        "database"
+      ],
+      "author": "mr-manuel",
+      "developer": "Influx Data",
+      "architectures": [
+        "amd64",
+        "arm64",
+        "arm"
+      ],
+      "icon": "/apps/com.zimaos.influxdb-v1/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.influxdb-v1/assets/icon.webp",
+      "compose_url": "/apps/com.zimaos.influxdb-v1/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.influxdb-v1/meta.json",
+      "content_hash": "d4dd269e"
+    },
+    {
+      "id": "com.zimaos.isponsorblocktv",
+      "title": "iSponsorBlockTV",
+      "tagline": "Skip sponsor segments in YouTube videos playing on a YouTube TV device.",
+      "category": "TMCstore",
+      "categories": [
+        "tmcstore"
+      ],
+      "author": "isponsorblocktv",
+      "developer": "isponsorblocktv",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.isponsorblocktv/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.isponsorblocktv/assets/thumbnail.webp",
+      "compose_url": "/apps/com.zimaos.isponsorblocktv/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.isponsorblocktv/meta.json",
+      "content_hash": "7517cd45"
+    },
+    {
+      "id": "com.zimaos.jellyfin-nvidia",
+      "title": "Jellyfin(Nvidia GPU)",
+      "tagline": "The personal Media System",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "CasaOS Team",
+      "developer": "Jellyfin",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.jellyfin-nvidia/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.jellyfin-nvidia/assets/thumbnail.webp",
+      "compose_url": "/apps/com.zimaos.jellyfin-nvidia/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.jellyfin-nvidia/meta.json",
+      "content_hash": "5404b194"
+    },
+    {
+      "id": "com.zimaos.jenkin",
+      "title": "Jenkins CI/CD",
+      "tagline": "Jenkins Continuous Integration and Delivery server.",
+      "category": "Network",
+      "categories": [
+        "network"
+      ],
+      "author": "bepp-boop",
+      "developer": "bepp-boop",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.jenkin/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/com.zimaos.jenkin/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.jenkin/meta.json",
+      "content_hash": "9d6e71ef"
+    },
+    {
+      "id": "com.zimaos.labelstudio",
+      "title": "Label Studio",
+      "tagline": "Label Studio is an open source data labeling tool. It lets you label data types like audio, text, images, videos, and time series with a simple and straightforward UI and export to various model formats. It can be used to prepare raw data or improve existing training data to get more accurate ML models.",
+      "category": "AI",
+      "categories": [
+        "ai"
+      ],
+      "author": "CorrectRoadH",
+      "developer": "Yidadaa",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.labelstudio/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.labelstudio/assets/thumbnail.webp",
+      "compose_url": "/apps/com.zimaos.labelstudio/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.labelstudio/meta.json",
+      "content_hash": "dad5ae97"
+    },
+    {
+      "id": "com.zimaos.lazylibrarian",
+      "title": "Lazylibrarian",
+      "tagline": "eBook Auto Downloader",
+      "category": "Downloader",
+      "categories": [
+        "downloader"
+      ],
+      "author": "CasaOS Team",
+      "developer": "Lazylibrarian Team",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.lazylibrarian/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.lazylibrarian/assets/thumbnail.webp",
+      "compose_url": "/apps/com.zimaos.lazylibrarian/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.lazylibrarian/meta.json",
+      "content_hash": "6ad38f1f"
+    },
+    {
+      "id": "com.zimaos.lucky",
+      "title": "Lucky",
+      "tagline": "Powerful networking tool",
+      "category": "Network",
+      "categories": [
+        "network"
+      ],
+      "author": "IceWhaleTech",
+      "developer": "gdy666",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.lucky/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/com.zimaos.lucky/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.lucky/meta.json",
+      "content_hash": "d0d447e2"
+    },
+    {
+      "id": "com.zimaos.mediafetchpro",
+      "title": "Media Fetch Pro",
+      "tagline": "Media Fetch PRO is an application to download video of youtube, bilibili and more websites in future with metadata to jellyfin, emby, plex and more softwares in future.",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "CorrectRoadH",
+      "developer": "CorrectRoadH",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.mediafetchpro/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.mediafetchpro/assets/thumbnail.webp",
+      "compose_url": "/apps/com.zimaos.mediafetchpro/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.mediafetchpro/meta.json",
+      "content_hash": "0807d25c"
+    },
+    {
+      "id": "com.zimaos.medusa",
+      "title": "Medusa",
+      "tagline": "",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "Jason McFeetors",
+      "developer": "pyMedusa (https://github.com/pymedusa)",
+      "architectures": [
+        "amd64",
+        "arm64",
+        "arm"
+      ],
+      "icon": "/apps/com.zimaos.medusa/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/com.zimaos.medusa/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.medusa/meta.json",
+      "content_hash": "06268656"
+    },
+    {
+      "id": "com.zimaos.mineos",
+      "title": "MineOS",
+      "tagline": "Free and easy to use Minecraft server management tool.",
+      "category": "Games",
+      "categories": [
+        "games"
+      ],
+      "author": "Chàra Rose",
+      "developer": "hexparrot",
+      "architectures": [
+        "amd64"
+      ],
+      "icon": "/apps/com.zimaos.mineos/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/com.zimaos.mineos/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.mineos/meta.json",
+      "content_hash": "2afbd6ed"
+    },
+    {
+      "id": "com.zimaos.mosquitto",
+      "title": "Mosquitto",
+      "tagline": "Eclipse Mosquitto is an open source (EPL/EDL licensed) message broker that implements the MQTT protocol versions 5.0, 3.1.1 and 3.1. Mosquitto is lightweight and is suitable for use on all devices from low power single board computers to full servers.\n",
+      "category": "Home Automation",
+      "categories": [
+        "home automation"
+      ],
+      "author": "mr-manuel",
+      "developer": "Eclipse Mosquitto",
+      "architectures": [
+        "amd64",
+        "arm64",
+        "arm"
+      ],
+      "icon": "/apps/com.zimaos.mosquitto/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.mosquitto/assets/icon.webp",
+      "compose_url": "/apps/com.zimaos.mosquitto/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.mosquitto/meta.json",
+      "content_hash": "5e32ac64"
+    },
+    {
+      "id": "com.zimaos.motioneye",
+      "title": "Motioneye",
+      "tagline": "A web frontend for the motion daemon.",
+      "category": "Utilities",
+      "categories": [
+        "utilities"
+      ],
+      "author": "f4bio",
+      "developer": "Motioneye",
+      "architectures": [
+        "amd64"
+      ],
+      "icon": "/apps/com.zimaos.motioneye/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/com.zimaos.motioneye/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.motioneye/meta.json",
+      "content_hash": "b22b3f88"
+    },
+    {
+      "id": "com.zimaos.myspeed",
+      "title": "MySpeed",
+      "tagline": "Analysis software that shows your internet speed for up to 30 days.",
+      "category": "Utilities",
+      "categories": [
+        "utilities"
+      ],
+      "author": "joaobosconff",
+      "developer": "Mathias Wagner",
+      "architectures": [
+        "amd64",
+        "arm64",
+        "arm"
+      ],
+      "icon": "/apps/com.zimaos.myspeed/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/com.zimaos.myspeed/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.myspeed/meta.json",
+      "content_hash": "76b480c5"
+    },
+    {
+      "id": "com.zimaos.n8n",
+      "title": "n8n",
+      "tagline": "Workflow automation tool",
+      "category": "Utilities",
+      "categories": [
+        "utilities"
+      ],
+      "author": "YoussofKhawaja",
+      "developer": "n8n",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.n8n/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.n8n/assets/thumbnail.webp",
+      "compose_url": "/apps/com.zimaos.n8n/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.n8n/meta.json",
+      "content_hash": "ad0b9a2b"
+    },
+    {
+      "id": "com.zimaos.navidrome",
+      "title": "Navidrome",
+      "tagline": "Music Collection and Streaming Server",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "The Navidrome Authors",
+      "developer": "",
+      "architectures": [
+        "amd64",
+        "arm64",
+        "arm"
+      ],
+      "icon": "/apps/com.zimaos.navidrome/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/com.zimaos.navidrome/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.navidrome/meta.json",
+      "content_hash": "38d6b581"
+    },
+    {
+      "id": "com.zimaos.netdata",
+      "title": "Netdata",
+      "tagline": "Real-time Performance Monitoring",
+      "category": "Utilities",
+      "categories": [
+        "utilities"
+      ],
+      "author": "f4bio",
+      "developer": "",
+      "architectures": [
+        "amd64",
+        "arm64",
+        "arm"
+      ],
+      "icon": "/apps/com.zimaos.netdata/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/com.zimaos.netdata/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.netdata/meta.json",
+      "content_hash": "5e5e6da1"
+    },
+    {
+      "id": "com.zimaos.nginxproxymanager",
+      "title": "Nginx Proxy Manager",
+      "tagline": "Managing Nginx proxy hosts with a simple, powerful interface.",
+      "category": "Network",
+      "categories": [
+        "network"
+      ],
+      "author": "CasaOS Team",
+      "developer": "Nginx Proxy Manager",
+      "architectures": [
+        "amd64",
+        "arm64",
+        "arm"
+      ],
+      "icon": "/apps/com.zimaos.nginxproxymanager/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.nginxproxymanager/assets/thumbnail.webp",
+      "compose_url": "/apps/com.zimaos.nginxproxymanager/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.nginxproxymanager/meta.json",
+      "content_hash": "5515bc5a"
+    },
+    {
+      "id": "com.zimaos.openspeedtest",
+      "title": "OpenSpeedTest",
+      "tagline": "HTML5 Network Speed Test Server.",
+      "category": "Utilities",
+      "categories": [
+        "utilities"
+      ],
+      "author": "OpenSpeedTest",
+      "developer": "OpenSpeedTest",
+      "architectures": [
+        "amd64",
+        "arm64",
+        "ppc64le",
+        "s390x",
+        "386",
+        "arm"
+      ],
+      "icon": "/apps/com.zimaos.openspeedtest/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.openspeedtest/assets/thumbnail.webp",
+      "compose_url": "/apps/com.zimaos.openspeedtest/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.openspeedtest/meta.json",
+      "content_hash": "ed231d7f"
+    },
+    {
+      "id": "com.zimaos.openwebui",
+      "title": "Open WebUI",
+      "tagline": "User-friendly WebUI for LLMs (Formerly Ollama WebUI)",
+      "category": "Chat",
+      "categories": [
+        "chat"
+      ],
+      "author": "",
+      "developer": "Tim J. Baek",
+      "architectures": [
+        "amd64"
+      ],
+      "icon": "/apps/com.zimaos.openwebui/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.openwebui/assets/thumbnail.webp",
+      "compose_url": "/apps/com.zimaos.openwebui/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.openwebui/meta.json",
+      "content_hash": "fb65488c"
+    },
+    {
+      "id": "com.zimaos.photoprism",
+      "title": "PhotoPrism",
+      "tagline": "Browse Your Life in Images",
+      "category": "Gallery",
+      "categories": [
+        "gallery"
+      ],
+      "author": "CasaOS Team",
+      "developer": "PhotoPrism",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.photoprism/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.photoprism/assets/thumbnail.webp",
+      "compose_url": "/apps/com.zimaos.photoprism/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.photoprism/meta.json",
+      "content_hash": "ca2b119b"
+    },
+    {
+      "id": "com.zimaos.playit-agent",
+      "title": "Playit Agent",
+      "tagline": "A free reverse proxy for tunneling services (not self-hosted).",
+      "category": "Utilities",
+      "categories": [
+        "utilities"
+      ],
+      "author": "mafen",
+      "developer": "Patrick Lorio",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.playit-agent/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/com.zimaos.playit-agent/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.playit-agent/meta.json",
+      "content_hash": "1d96c0c7"
+    },
+    {
+      "id": "com.zimaos.plex-nvidia",
+      "title": "Plex(Nvidia GPU)",
+      "tagline": "Stream Movies & TV Shows",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "CasaOS Team",
+      "developer": "Plex",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.plex-nvidia/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.plex-nvidia/assets/thumbnail.webp",
+      "compose_url": "/apps/com.zimaos.plex-nvidia/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.plex-nvidia/meta.json",
+      "content_hash": "ce41ad61"
+    },
+    {
+      "id": "com.zimaos.pyload",
+      "title": "PyLoad",
+      "tagline": "Free Downloader Manager.",
+      "category": "Downloader",
+      "categories": [
+        "downloader"
+      ],
+      "author": "joaobosconff",
+      "developer": "linuxserver",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.pyload/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/com.zimaos.pyload/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.pyload/meta.json",
+      "content_hash": "910376d0"
+    },
+    {
+      "id": "com.zimaos.red-discordbot",
+      "title": "Red Discord Bot",
+      "tagline": "Red is a fully modular bot – meaning all features and commands can be enabled/disabled to your liking, making it completely customizable.",
+      "category": "TMCstore",
+      "categories": [
+        "tmcstore"
+      ],
+      "author": "red-discordbot",
+      "developer": "red-discordbot",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.red-discordbot/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.red-discordbot/assets/thumbnail.webp",
+      "compose_url": "/apps/com.zimaos.red-discordbot/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.red-discordbot/meta.json",
+      "content_hash": "59119f20"
+    },
+    {
+      "id": "com.zimaos.resilio-sync",
+      "title": "resilio-sync",
+      "tagline": "Unleash the power of seamless file synchronization.",
+      "category": "File Sync",
+      "categories": [
+        "file sync"
+      ],
+      "author": "self",
+      "developer": "",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.resilio-sync/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/com.zimaos.resilio-sync/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.resilio-sync/meta.json",
+      "content_hash": "eb654197"
+    },
+    {
+      "id": "com.zimaos.sickchill",
+      "title": "Sickchill",
+      "tagline": "Automatic video library manager for TV Shows",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "CasaOS Team",
+      "developer": "Sickchill Team",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.sickchill/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.sickchill/assets/thumbnail.webp",
+      "compose_url": "/apps/com.zimaos.sickchill/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.sickchill/meta.json",
+      "content_hash": "cd55233a"
+    },
+    {
+      "id": "com.zimaos.simpletorrent",
+      "title": "SimpleTorrent",
+      "tagline": "Self-hosted remote torrent client.",
+      "category": "Downloader",
+      "categories": [
+        "downloader"
+      ],
+      "author": "joaobosconff",
+      "developer": "boypt / jpillora",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.simpletorrent/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/com.zimaos.simpletorrent/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.simpletorrent/meta.json",
+      "content_hash": "cb60cd55"
+    },
+    {
+      "id": "com.zimaos.siyuan-note",
+      "title": "SiYuan Note",
+      "tagline": "Private personal knowledge management",
+      "category": "Notes",
+      "categories": [
+        "notes"
+      ],
+      "author": "CasaOS Team",
+      "developer": "siyuan-note",
+      "architectures": [
+        "amd64",
+        "arm64",
+        "arm"
+      ],
+      "icon": "/apps/com.zimaos.siyuan-note/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.siyuan-note/assets/thumbnail.webp",
+      "compose_url": "/apps/com.zimaos.siyuan-note/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.siyuan-note/meta.json",
+      "content_hash": "cbab17f0"
+    },
+    {
+      "id": "com.zimaos.smokeping",
+      "title": "Smokeping",
+      "tagline": "Free open source network performance monitoring tool",
+      "category": "Network",
+      "categories": [
+        "network"
+      ],
+      "author": "CasaOS Team",
+      "developer": "Lazylibrarian Team",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.smokeping/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.smokeping/assets/thumbnail.webp",
+      "compose_url": "/apps/com.zimaos.smokeping/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.smokeping/meta.json",
+      "content_hash": "ff6e2acb"
+    },
+    {
+      "id": "com.zimaos.snapdrop",
+      "title": "snapdrop",
+      "tagline": "Cross-platform file sharing made easy.",
+      "category": "Utilities",
+      "categories": [
+        "utilities"
+      ],
+      "author": "self",
+      "developer": "",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.snapdrop/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/com.zimaos.snapdrop/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.snapdrop/meta.json",
+      "content_hash": "bafac56e"
+    },
+    {
+      "id": "com.zimaos.stablediffusionwebui",
+      "title": "Stable Diffusion",
+      "tagline": "An AI model used to generate images conditioned on text descriptions.",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "",
+      "developer": "stability.ai",
+      "architectures": [
+        "amd64"
+      ],
+      "icon": "/apps/com.zimaos.stablediffusionwebui/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/com.zimaos.stablediffusionwebui/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.stablediffusionwebui/meta.json",
+      "content_hash": "ce32cf7a"
+    },
+    {
+      "id": "com.zimaos.swingmusic",
+      "title": "Swing Music",
+      "tagline": "Swing Music is a beautifully designed, self-hosted music streaming server. Like a cooler Spotify ... but bring your own music.",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "CasaOS Team",
+      "developer": "SwingMX",
+      "architectures": [
+        "amd64"
+      ],
+      "icon": "/apps/com.zimaos.swingmusic/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/com.zimaos.swingmusic/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.swingmusic/meta.json",
+      "content_hash": "2c3a0fd1"
+    },
+    {
+      "id": "com.zimaos.syncthing",
+      "title": "Syncthing",
+      "tagline": "Open decentralized file synchronization",
+      "category": "Backup",
+      "categories": [
+        "backup"
+      ],
+      "author": "CasaOS Team",
+      "developer": "Syncthing",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.syncthing/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.syncthing/assets/thumbnail.webp",
+      "compose_url": "/apps/com.zimaos.syncthing/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.syncthing/meta.json",
+      "content_hash": "d0738816"
+    },
+    {
+      "id": "com.zimaos.taskingai",
+      "title": "TaskingAI",
+      "tagline": "The developer-friendly cloud platform for building and running LLM agents for AI-native applications.",
+      "category": "Chat",
+      "categories": [
+        "chat"
+      ],
+      "author": "CasaOS Team",
+      "developer": "TaskingAI Team",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.taskingai/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.taskingai/assets/thumbnail.webp",
+      "compose_url": "/apps/com.zimaos.taskingai/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.taskingai/meta.json",
+      "content_hash": "d306628e"
+    },
+    {
+      "id": "com.zimaos.threadfin",
+      "title": "Threadfin",
+      "tagline": "M3U proxy server",
+      "category": "Utilities",
+      "categories": [
+        "utilities"
+      ],
+      "author": "Fabio Tea",
+      "developer": "jdownloader",
+      "architectures": [
+        "amd64",
+        "arm64",
+        "arm"
+      ],
+      "icon": "/apps/com.zimaos.threadfin/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/com.zimaos.threadfin/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.threadfin/meta.json",
+      "content_hash": "0e2fb9b3"
+    },
+    {
+      "id": "com.zimaos.traefik",
+      "title": "Traefik",
+      "tagline": "Traefik is the leading open-source reverse proxy and load balancer for HTTP and TCP-based applications that is easy, dynamic and full-featured.\n",
+      "category": "Network",
+      "categories": [
+        "network"
+      ],
+      "author": "mr-manuel",
+      "developer": "Traefik Labs",
+      "architectures": [
+        "amd64",
+        "arm64",
+        "arm"
+      ],
+      "icon": "/apps/com.zimaos.traefik/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.traefik/assets/icon.webp",
+      "compose_url": "/apps/com.zimaos.traefik/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.traefik/meta.json",
+      "content_hash": "2de2a2c0"
+    },
+    {
+      "id": "com.zimaos.traefik-v2",
+      "title": "Traefik v2",
+      "tagline": "Traefik is the leading open-source reverse proxy and load balancer for HTTP and TCP-based applications that is easy, dynamic and full-featured.\n",
+      "category": "Network",
+      "categories": [
+        "network"
+      ],
+      "author": "mr-manuel",
+      "developer": "Traefik Labs",
+      "architectures": [
+        "amd64",
+        "arm64",
+        "arm"
+      ],
+      "icon": "/apps/com.zimaos.traefik-v2/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.traefik-v2/assets/icon.webp",
+      "compose_url": "/apps/com.zimaos.traefik-v2/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.traefik-v2/meta.json",
+      "content_hash": "b0511a81"
+    },
+    {
+      "id": "com.zimaos.traefik-v3",
+      "title": "Traefik v3",
+      "tagline": "Traefik is the leading open-source reverse proxy and load balancer for HTTP and TCP-based applications that is easy, dynamic and full-featured.\n",
+      "category": "Network",
+      "categories": [
+        "network"
+      ],
+      "author": "mr-manuel",
+      "developer": "Traefik Labs",
+      "architectures": [
+        "amd64",
+        "arm64",
+        "arm"
+      ],
+      "icon": "/apps/com.zimaos.traefik-v3/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.traefik-v3/assets/icon.webp",
+      "compose_url": "/apps/com.zimaos.traefik-v3/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.traefik-v3/meta.json",
+      "content_hash": "f2b0bad5"
+    },
+    {
+      "id": "com.zimaos.transmission",
+      "title": "Transmission",
+      "tagline": "Transmission is a cross-platform BitTorrent client",
+      "category": "Downloader",
+      "categories": [
+        "downloader"
+      ],
+      "author": "CasaOS Team",
+      "developer": "Transmission",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.transmission/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.transmission/assets/thumbnail.webp",
+      "compose_url": "/apps/com.zimaos.transmission/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.transmission/meta.json",
+      "content_hash": "acb8e63a"
+    },
+    {
+      "id": "com.zimaos.twingate",
+      "title": "Twingate",
+      "tagline": "Twingate Connector for CasaOS",
+      "category": "Network",
+      "categories": [
+        "network"
+      ],
+      "author": "Shubhankar Trivedi",
+      "developer": "Twingate",
+      "architectures": [
+        "amd64",
+        "arm64",
+        "arm"
+      ],
+      "icon": "/apps/com.zimaos.twingate/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.twingate/assets/thumbnail.webp",
+      "compose_url": "/apps/com.zimaos.twingate/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.twingate/meta.json",
+      "content_hash": "35eff5fc"
+    },
+    {
+      "id": "com.zimaos.uptimekuma",
+      "title": "Uptime Kuma",
+      "tagline": "A fancy monitoring tool",
+      "category": "Network",
+      "categories": [
+        "network"
+      ],
+      "author": "CasaOS Team",
+      "developer": "Louis Lam",
+      "architectures": [
+        "amd64",
+        "arm64",
+        "arm"
+      ],
+      "icon": "/apps/com.zimaos.uptimekuma/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.uptimekuma/assets/thumbnail.webp",
+      "compose_url": "/apps/com.zimaos.uptimekuma/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.uptimekuma/meta.json",
+      "content_hash": "89ebad02"
+    },
+    {
+      "id": "com.zimaos.vaultwarden",
+      "title": "Vaultwarden",
+      "tagline": "A self-hosted Bitwarden server",
+      "category": "Utilities",
+      "categories": [
+        "utilities"
+      ],
+      "author": "CasaOS Team",
+      "developer": "Daniel García",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.vaultwarden/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.vaultwarden/assets/thumbnail.webp",
+      "compose_url": "/apps/com.zimaos.vaultwarden/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.vaultwarden/meta.json",
+      "content_hash": "917c1596"
+    },
+    {
+      "id": "com.zimaos.virtualmachinemanager",
+      "title": "Virtual Machine Manager",
+      "tagline": "A GTK Broadway web UI for libvirt and virt-manager.",
+      "category": "Utilities",
+      "categories": [
+        "utilities"
+      ],
+      "author": "mber5",
+      "developer": "Red Hat",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.virtualmachinemanager/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/com.zimaos.virtualmachinemanager/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.virtualmachinemanager/meta.json",
+      "content_hash": "19ff37bb"
+    },
+    {
+      "id": "com.zimaos.vocechat",
+      "title": "VoceChat",
+      "tagline": "Have a Private Social Space Hosted on Your Site",
+      "category": "Chat",
+      "categories": [
+        "chat"
+      ],
+      "author": "Privoce",
+      "developer": "Privoce",
+      "architectures": [
+        "amd64"
+      ],
+      "icon": "/apps/com.zimaos.vocechat/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.vocechat/assets/thumbnail.webp",
+      "compose_url": "/apps/com.zimaos.vocechat/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.vocechat/meta.json",
+      "content_hash": "e6a0e3be"
+    },
+    {
+      "id": "com.zimaos.wireguardeasy",
+      "title": "WireGuard Easy",
+      "tagline": "WEB UI to manage WireGuard VPN.",
+      "category": "Network",
+      "categories": [
+        "network"
+      ],
+      "author": "Sawy",
+      "developer": "WeejeWel",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/com.zimaos.wireguardeasy/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.wireguardeasy/assets/icon.webp",
+      "compose_url": "/apps/com.zimaos.wireguardeasy/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.wireguardeasy/meta.json",
+      "content_hash": "289a0e3d"
+    },
+    {
+      "id": "com.zimaos.zigbee2mqtt",
+      "title": "Zigbee2MQTT",
+      "tagline": "Zigbee2MQTT allows you to use your Zigbee devices without the vendor's bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.\n",
+      "category": "Home Automation",
+      "categories": [
+        "home automation"
+      ],
+      "author": "mr-manuel",
+      "developer": "Koenkk (Koen Kanters)",
+      "architectures": [
+        "amd64",
+        "arm64",
+        "arm"
+      ],
+      "icon": "/apps/com.zimaos.zigbee2mqtt/assets/icon.png",
+      "thumbnail": "/apps/com.zimaos.zigbee2mqtt/assets/icon.webp",
+      "compose_url": "/apps/com.zimaos.zigbee2mqtt/docker-compose.yml",
+      "meta_url": "/apps/com.zimaos.zigbee2mqtt/meta.json",
+      "content_hash": "fe7e8925"
+    }
+  ]
+}

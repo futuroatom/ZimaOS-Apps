@@ -1,0 +1,34 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64",
+    "arm"
+  ],
+  "author": "CasaOS Team",
+  "category": "Network",
+  "description": "It is a self-hosted monitoring tool like \"Uptime Robot\".",
+  "developer": "Louis Lam",
+  "screenshot_link": [
+    "/apps/com.zimaos.uptimekuma/assets/screenshot-1.webp",
+    "/apps/com.zimaos.uptimekuma/assets/screenshot-2.webp",
+    "/apps/com.zimaos.uptimekuma/assets/screenshot-3.webp",
+    "/apps/com.zimaos.uptimekuma/assets/screenshot-4.webp",
+    "/apps/com.zimaos.uptimekuma/assets/screenshot-5.webp"
+  ],
+  "tagline": "A fancy monitoring tool",
+  "thumbnail": "/apps/com.zimaos.uptimekuma/assets/thumbnail.webp",
+  "tips": {},
+  "title": "Uptime Kuma",
+  "base_url": "https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages",
+  "id": "com.zimaos.uptimekuma",
+  "version": "",
+  "categories": [
+    "network"
+  ],
+  "min_memory": 134217728,
+  "min_image_size": {
+    "amd64": 153352443,
+    "arm": 141693304,
+    "arm64": 150317969
+  }
+}

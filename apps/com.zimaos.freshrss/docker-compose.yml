@@ -1,0 +1,29 @@
+name: freshrss
+services:
+  freshrss:
+    restart: unless-stopped
+    environment:
+      TZ: ""
+      CRON_MIN: 1,31
+    image: freshrss/freshrss:1.25.0
+    network_mode: bridge
+    ports:
+      - target: 80
+        published: "8749"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/freshrss/data
+        target: /var/www/FreshRSS/data
+      - type: bind
+        source: /DATA/AppData/freshrss/extensions
+        target: /var/www/FreshRSS/extensions
+    container_name: freshrss
+x-casaos:
+  main: freshrss
+  icon: https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages/apps/com.zimaos.freshrss/assets/icon.png
+  port_map: "8749"
+  scheme: http
+  title:
+    en_US: FreshRSS
+  id: com.zimaos.freshrss

@@ -1,0 +1,27 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "CNCjs is a web-based interface for CNC milling controller running Grbl, Smoothieware, or TinyG. Connecting to the CNC machine over a serial connection using a USB serial port or a Serial-to-WiFi module like XBee or USR-WIFI232-T.",
+  "tagline": "Web-based CNC milling controller interface",
+  "developer": "cncjs",
+  "author": "JustSerdar",
+  "thumbnail": "/apps/com.zimaos.cncjs/assets/logo.webp",
+  "category": "Makerspace",
+  "tips": {
+    "before_install": "Make sure your CNC machine is connected via USB and the correct port is mapped in the devices section.\nFor more information, visit: https://github.com/cncjs/cncjs/blob/master/README.md\n"
+  },
+  "title": "CNCjs",
+  "base_url": "https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages",
+  "id": "com.zimaos.cncjs",
+  "version": "",
+  "categories": [
+    "makerspace"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 160679948,
+    "arm64": 158221194
+  }
+}

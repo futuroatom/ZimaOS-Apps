@@ -1,0 +1,29 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64",
+    "arm"
+  ],
+  "author": "Shubhankar Trivedi",
+  "category": "Network",
+  "description": "It's a connector for Twingate\".",
+  "developer": "Twingate",
+  "screenshot_link": [],
+  "tagline": "Twingate Connector for CasaOS",
+  "thumbnail": "/apps/com.zimaos.twingate/assets/thumbnail.webp",
+  "tips": {},
+  "hostname": "",
+  "title": "Twingate",
+  "base_url": "https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages",
+  "id": "com.zimaos.twingate",
+  "version": "",
+  "categories": [
+    "network"
+  ],
+  "min_memory": 524288000,
+  "min_image_size": {
+    "amd64": 26631802,
+    "arm": 21270739,
+    "arm64": 24827495
+  }
+}

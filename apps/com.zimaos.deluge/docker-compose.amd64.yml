@@ -1,0 +1,41 @@
+name: deluge
+services:
+  deluge:
+    environment:
+      DELUGE_LOGLEVEL: error
+      PGID: $PGID
+      PUID: $PUID
+      TZ: $TZ
+    image: linuxserver/deluge:2.1.1@sha256:e228009abda06b19dd87f2f03f06813efc22ec74129cea32cc58cc48a0770fc1
+    deploy:
+      resources:
+        reservations:
+          memory: 256M
+    network_mode: bridge
+    ports:
+      - target: 8112
+        published: "8112"
+        protocol: tcp
+      - target: 6881
+        published: "6881"
+        protocol: tcp
+      - target: 6881
+        published: "6881"
+        protocol: udp
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/config
+        target: /config
+      - type: bind
+        source: /DATA
+        target: /DATA
+    container_name: deluge
+x-casaos:
+  main: deluge
+  icon: https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages/apps/com.zimaos.deluge/assets/icon.png
+  title:
+    en_US: Deluge
+  index: /
+  port_map: "8112"
+  id: com.zimaos.deluge

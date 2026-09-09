@@ -1,0 +1,29 @@
+name: chatgpt-next-web
+services:
+  chatgpt-next-web:
+    environment:
+      PGID: $PGID
+      PUID: $PUID
+      TZ: $TZ
+      CODE: ""
+      PROXY_URL: ""
+      BASE_URL: https://api.openai.com
+    image: yidadaa/chatgpt-next-web:v2.15.8@sha256:35248baff6b63c210e231d094f383e5c743b255a2d7b2d91cf77a3e95b18b61a
+    deploy:
+      resources:
+        reservations:
+          memory: 64M
+    network_mode: bridge
+    ports:
+      - target: 3000
+        published: "3000"
+        protocol: tcp
+    restart: unless-stopped
+    container_name: chatgpt-next-web
+x-casaos:
+  main: chatgpt-next-web
+  icon: https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages/apps/com.zimaos.chatgpt-next-web/assets/icon.png
+  title:
+    en_US: ChatGPT Next Web
+  port_map: "3000"
+  id: com.zimaos.chatgpt-next-web

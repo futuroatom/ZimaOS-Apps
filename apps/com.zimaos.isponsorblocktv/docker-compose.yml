@@ -1,0 +1,21 @@
+name: isponsorblocktv-tmc
+services:
+  app:
+    container_name: isponsorblocktv
+    image: ghcr.io/dmunozv04/isponsorblocktv:latest
+    volumes:
+      - type: bind
+        source: /DATA/AppData/TMC-Store/$AppID/data
+        target: /app/data
+    restart: unless-stopped
+    privileged: false
+    network_mode: host
+
+x-casaos:
+  icon: https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages/apps/com.zimaos.isponsorblocktv/assets/icon.png
+  index: /
+  main: app
+  scheme: http
+  title:
+    en_US: iSponsorBlockTV
+  id: com.zimaos.isponsorblocktv

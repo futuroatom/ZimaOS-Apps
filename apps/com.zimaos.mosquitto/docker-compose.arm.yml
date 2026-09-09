@@ -1,0 +1,49 @@
+# https://github.com/IceWhaleTech/CasaOS-AppStore/blob/main/CONTRIBUTING.md
+
+name: mosquitto
+services:
+  mosquitto:
+    container_name: mosquitto
+    command: >
+      sh -c '
+        if [ ! -f "/mosquitto/config/mosquitto.conf" ]; then
+          echo -n "No config file found. Create one... "
+          {
+            echo "# config generated on $(date +%Y.%m.%d\ %H:%M:%S)"
+            echo "allow_anonymous true"
+            echo "listener 1883"
+            echo "persistence true"
+            echo "persistence_location /mosquitto/data/"
+            echo "log_dest file /mosquitto/log/mosquitto.log"
+          } > /mosquitto/config/mosquitto.conf
+          if [ $? -eq 0 ]; then
+            echo "done."
+          else
+            echo "error."
+            exit 1
+          fi
+        fi
+        echo "Starting Mosquitto"
+        /usr/sbin/mosquitto -c /mosquitto/config/mosquitto.conf'
+    image: eclipse-mosquitto:2@sha256:da1de5d1a79d3032bee7127ed865bdbbe28d4ccc873cb334b7374277969cdd1c
+    labels:
+      traefik.enable: false
+    network_mode: bridge
+    ports:
+      - target: 1883
+        published: "1883"
+        protocol: tcp
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /DATA/AppData/mosquitto/config
+        target: /mosquitto/config
+      - type: bind
+        source: /DATA/AppData/mosquitto/data
+        target: /mosquitto/data
+x-casaos:
+  icon: https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages/apps/com.zimaos.mosquitto/assets/icon.png
+  main: mosquitto
+  title:
+    en_US: Mosquitto
+  id: com.zimaos.mosquitto

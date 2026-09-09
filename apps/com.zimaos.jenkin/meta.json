@@ -1,0 +1,26 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tagline": "Jenkins Continuous Integration and Delivery server.",
+  "description": "A server for creating pipelines for Jenkins continuous integration and delivery.",
+  "developer": "bepp-boop",
+  "author": "bepp-boop",
+  "category": "Network",
+  "tips": {
+    "before_install": ""
+  },
+  "title": "Jenkins CI/CD",
+  "base_url": "https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages",
+  "id": "com.zimaos.jenkin",
+  "version": "",
+  "categories": [
+    "network"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 279862047,
+    "arm64": 279553430
+  }
+}

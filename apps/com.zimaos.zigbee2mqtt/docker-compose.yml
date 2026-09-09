@@ -1,0 +1,43 @@
+# https://github.com/IceWhaleTech/CasaOS-AppStore/blob/main/CONTRIBUTING.md
+
+name: zigbee2mqtt
+services:
+  zigbee2mqtt:
+    container_name: zigbee2mqtt
+    command: >
+      sh -c '
+        CONFIG_FILE="/app/data/configuration.yaml"
+        if [ ! -f "$CONFIG_FILE" ]; then
+          echo "No config file found. Creating one..."
+          if [ ! -d "/app/data" ]; then
+            echo "Creating directory /app/data..."
+            mkdir -p /app/data
+          fi
+          wget -O /app/data/configuration.yaml https://raw.githubusercontent.com/Koenkk/zigbee2mqtt/master/data/configuration.yaml
+          echo "Config file downloaded successfully."
+        fi'
+    image: koenkk/zigbee2mqtt:latest
+    labels:
+      traefik.enable: false
+    network_mode: bridge
+    ports:
+      - target: 8080
+        published: "8080"
+        protocol: tcp
+    restart: unless-stopped
+    devices:
+     # Make sure this matched your adapter location, use "lsusb" to find it.
+      - /dev/bus/usb:/dev/bus/usb  # passes the zigbee usb adapter, check compatibility here https://www.zigbee2mqtt.io/guide/adapters/
+    volumes:
+      - type: bind
+        source: /DATA/AppData/zigbee2mqtt/data
+        target: /app/data
+      - type: bind
+        source: /run/udev
+        target: /run/udev:ro
+x-casaos:
+  icon: https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages/apps/com.zimaos.zigbee2mqtt/assets/icon.png
+  main: zigbee2mqtt
+  title:
+    en_US: Zigbee2MQTT
+  id: com.zimaos.zigbee2mqtt

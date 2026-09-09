@@ -1,0 +1,39 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "EmulatorJS is a Docker-based emulator application that can simulate various operating systems and device environments within containers for development, testing, and learning purposes.",
+  "screenshot_link": [
+    "/apps/com.zimaos.emulatorjs/assets/screenshot-1.webp"
+  ],
+  "tagline": "",
+  "en_us": "Unlock the power of emulation with EmulatorJS – Explore, experiment, and innovate across diverse operating systems and device environments.",
+  "zh_cn": "发掘模拟的力量，与EmulatorJS一同探索、实验和创新于多样化的操作系统和设备环境。",
+  "ar_sa": "اكتشف قوة المحاكاة مع EmulatorJS - استكشف وتجرب وابتكر عبر أنظمة التشغيل وبيئات الأجهزة المتنوعة.",
+  "de_de": "Entfesseln Sie die Kraft der Emulation mit EmulatorJS – Erkunden, experimentieren und innovieren Sie in vielfältigen Betriebssystemen und Geräteumgebungen.",
+  "es_es": "Desbloquea el poder de la emulación con EmulatorJS Explora, experimenta e innova en diversos sistemas operativos y entornos de dispositivos.",
+  "fr_fr": "Libérez la puissance de l'émulation avec EmulatorJS - Explorez, expérimentez et innovez dans divers systèmes d'exploitation et environnements de périphériques.",
+  "hu_hu": "Fedezd fel az emuláció erejét az EmulatorJS-szel - Fedezz fel, kísérletezz és innoválj sokféle operációs rendszeren és eszközkörnyezetben.",
+  "it_it": "Sblocca il potere dell'emulazione con EmulatorJS - Esplora, sperimenta e innova su diversi sistemi operativi e ambienti dispositivi.",
+  "ru_ru": "Разблокируйте мощь эмуляции с помощью EmulatorJS - Исследуйте, экспериментируйте и инновируйте в разнообразных операционных системах и средах устройств.",
+  "pl_pl": "Odblokuj potęgę emulacji z EmulatorJS - Eksploruj, eksperymentuj i innowuj na różnorodnych systemach operacyjnych i środowiskach urządzeń.",
+  "pt_br": "Desbloqueie o poder da emulação com o EmulatorJS - Explore, experimente e inove em diversos sistemas operacionais e ambientes de dispositivos.",
+  "sv_se": "Lås upp kraften i emulering med EmulatorJS - Utforska, experimentera och innovera över olika operativsystem och enhetsmiljöer.",
+  "uk_ua": "Розкрийте потужність емуляції з EmulatorJS - Досліджуйте, експериментуйте та інновуйте у різних операційних системах і середовищах пристроїв.",
+  "author": "self",
+  "category": "Utilities",
+  "hostname": "",
+  "title": "emulatorjs",
+  "base_url": "https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages",
+  "id": "com.zimaos.emulatorjs",
+  "version": "",
+  "categories": [
+    "utilities"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 285131697,
+    "arm64": 281564585
+  }
+}

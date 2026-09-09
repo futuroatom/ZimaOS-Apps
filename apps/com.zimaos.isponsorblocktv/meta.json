@@ -1,0 +1,27 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "isponsorblocktv",
+  "category": "TMCstore",
+  "description": "Skip sponsor segments in YouTube videos playing on a YouTube TV device.",
+  "developer": "isponsorblocktv",
+  "tagline": "Skip sponsor segments in YouTube videos playing on a YouTube TV device.",
+  "screenshot_link": [
+    "/apps/com.zimaos.isponsorblocktv/assets/screenshot-01.webp"
+  ],
+  "thumbnail": "/apps/com.zimaos.isponsorblocktv/assets/thumbnail.webp",
+  "title": "iSponsorBlockTV",
+  "base_url": "https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages",
+  "id": "com.zimaos.isponsorblocktv",
+  "version": "",
+  "categories": [
+    "tmcstore"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 27556217,
+    "arm64": 27800849
+  }
+}

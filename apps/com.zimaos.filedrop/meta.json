@@ -1,0 +1,26 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "FileDrop is a self-hosted file sharing service that allows you to easily share files with family, friends, or colleagues. It's been designed to be easy to use and light on resources.\n",
+  "tagline": "FileDrop is a free, open source file sharing service",
+  "developer": "Noé Favier (noe.favier@outlook.com)",
+  "author": "Noé Favier",
+  "screenshot_link": [
+    "/apps/com.zimaos.filedrop/assets/screenshot-1.webp"
+  ],
+  "category": "Cloud",
+  "title": "FileDrop",
+  "base_url": "https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages",
+  "id": "com.zimaos.filedrop",
+  "version": "",
+  "categories": [
+    "cloud"
+  ],
+  "min_memory": 2147483648,
+  "min_image_size": {
+    "amd64": 6387454,
+    "arm64": 6080566
+  }
+}

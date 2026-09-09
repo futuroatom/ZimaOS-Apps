@@ -1,0 +1,6 @@
+{
+  "id": "com.zimaos.gopeed",
+  "title": "Gopeed",
+  "description": "O Gopeed (nome completo Go Speed) é um gerenciador de downloads de alta velocidade desenvolvido com Golang e Flutter. Ele suporta os protocolos HTTP, BitTorrent e Magnet, e funciona em todas as plataformas, incluindo Windows, macOS e Linux. Além das funções básicas de download, o Gopeed também é altamente personalizável, permitindo a implementação de novos recursos através da integração com APIs ou pela instalação e desenvolvimento de extensões.",
+  "tagline": "Código aberto, leve, nativo, suporta (HTTP, BitTorrent, Magnet, etc.) para download."
+}

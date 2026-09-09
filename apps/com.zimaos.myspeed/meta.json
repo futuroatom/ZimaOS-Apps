@@ -1,0 +1,30 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64",
+    "arm"
+  ],
+  "author": "joaobosconff",
+  "category": "Utilities",
+  "description": "MySpeed is a speed test analysis software that stores the speed of your internet for up to 30 days. This can also be useful if you want to know when your network might have drops or if you want to check if your internet matches the booked values from your contract.",
+  "developer": "Mathias Wagner",
+  "screenshot_link": [
+    "/apps/com.zimaos.myspeed/assets/screenshot-1.webp",
+    "/apps/com.zimaos.myspeed/assets/screenshot-2.webp",
+    "/apps/com.zimaos.myspeed/assets/screenshot-3.webp"
+  ],
+  "tagline": "Analysis software that shows your internet speed for up to 30 days.",
+  "title": "MySpeed",
+  "base_url": "https://cdn.jsdelivr.net/gh/futuroatom/ZimaOS-Apps@gh-pages",
+  "id": "com.zimaos.myspeed",
+  "version": "",
+  "categories": [
+    "utilities"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 62274369,
+    "arm": 65131777,
+    "arm64": 61892506
+  }
+}
