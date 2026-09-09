@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "store_id": "minhaloja",
+  "name": {
+    "en_US": "My Custom Store",
+    "pt_BR": "Minha Loja Personalizada"
+  },
+  "maintainer": "Seu Nome",
+  "url": "https://github.com/seu-usuario/seu-repo"
+}
